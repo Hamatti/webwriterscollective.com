@@ -276,5 +276,5 @@ strong em, em strong {
 
 .notice-card:has(.button.more-internal:hover) .button.more-internal,
 .notice-card:has(a.heading-link:hover) .button.more-internal {
-    @apply bg-accent text-white;
+    @apply bg-accent text-white border-accent;
 }
