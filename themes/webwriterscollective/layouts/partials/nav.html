@@ -27,7 +27,7 @@
         {{ end }}
 
         <!-- FORUM -->
-        <!--<a href="https://forum.webwriterscollective.com">Forum</a>-->
+        <a href="/forum" class="{{ if or (eq .RelPermalink "/forum/") (hasPrefix .RelPermalink "/forum/") }}current{{ end }}">Forum</a>
 
         <!-- AUTHORS (taxonomy) -->
         <a href="/authors" class="{{ if or (eq .RelPermalink "/authors/") (hasPrefix .RelPermalink "/authors/") }}current{{ end }}">Authors</a>
