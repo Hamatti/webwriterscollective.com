@@ -8,12 +8,12 @@ external_link: ""
 date: 2026-07-24T11:38:43+01:00
 tags: ["anthologies","theme"]
 type: notice
-draft: true
+draft: false
 pin: true
 ---
 Our first edition of *Anthologies*, which we will publish on the web, will be on the theme of ***Beginnings***. 
 
-The deadline for submitting pieces to the zine is **30 September 2026**. We will curate and prepare the zine in the weeks following the deadline.
+The deadline for submitting pieces to the zine is **30 September 2026**. We will curate and prepare the zine in the months following the deadline.
 
 Here are a few ways you could interpret this edition’s theme:
 
@@ -28,3 +28,5 @@ Here are a few ways you could interpret this edition’s theme:
 - Poetic prompt: When does a song begin?
 
 We have a [contribution guide](/anthologies/contribute) set up to help you with submitting your writings. You can also discuss with the community on [our new forum](/forum).
+
+Please note that since this is our very first issue, we may take longer than expected to publish it. We should have a more reliable schedule for you for subsequent issues once we have a well-tested workflow in place.
