@@ -166,7 +166,7 @@ strong {
     }
 }
 h1 {
-    @apply text-xl font-bold;
+    @apply text-xl font-[650];
 
     .prose & {
         @apply text-lg font-bold mb-1;
@@ -237,7 +237,7 @@ aside {
     @apply bg-offset border border-dotted border-foreground px-1.5 py-1;
 }
 strong em, em strong {
-    @apply text-accent not-italic!;
+    @apply text-accent not-italic! mr-0.5;
 }
 
 /* ISSUE CARD */
@@ -277,4 +277,16 @@ strong em, em strong {
 .notice-card:has(.button.more-internal:hover) .button.more-internal,
 .notice-card:has(a.heading-link:hover) .button.more-internal {
     @apply bg-accent text-white border-accent;
+}
+
+/* FOOTNOTES */
+.footnote-ref {
+    @apply decoration-0! text-accent;
+}
+.footnotes {
+    @apply text-base;
+
+    & .footnote-backref {
+        @apply decoration-0! text-accent;
+    }
 }
