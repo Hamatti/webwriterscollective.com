@@ -30,7 +30,7 @@ Posting a notice is a three-step process: create the notice, type up the front m
 
 ## 1.1. Creating a notice
 
-***If you are familiar with Hugo*** please clone [this website’s repo](git@github.com:vhbelvadi/webwriterscollective.com.git), install Hugo and any dependencies if you have not done so already, and create a new notice by running the following command from the terminal:
+***If you are familiar with Hugo*** please clone [this website’s repo](https://github.com/vhbelvadi/webwriterscollective.com), install Hugo and any dependencies if you have not done so already, and create a new notice by running the following command from the terminal:
 
 ```
 hugo new noticeboard/your-notice-here --kind notice
@@ -77,7 +77,7 @@ Articles will be published once an entire issue of *Anthologies* is ready. This 
 
 ## 2.1. Creating an article
 
-***If you are familiar with Hugo*** please clone [this website’s repo](git@github.com:vhbelvadi/webwriterscollective.com.git), install Hugo and any dependencies if you have not done so already, and create a new article template by running the following command from the terminal:
+***If you are familiar with Hugo*** please clone [this website’s repo](https://github.com/vhbelvadi/webwriterscollective.com), install Hugo and any dependencies if you have not done so already, and create a new article template by running the following command from the terminal:
 
 ```
 hugo new anthologies/1/my-new-article --kind article
@@ -134,7 +134,7 @@ It’s OK if all this sounds complex right now. Keep reading below and you shoul
 
 ## 3.1. Create your author page
 
-***If you are familiar with Hugo*** please clone [this website’s repo](git@github.com:vhbelvadi/webwriterscollective.com.git), install Hugo and any dependencies if you have not done so already, and create your author page by running the following command from the terminal:
+***If you are familiar with Hugo*** please clone [this website’s repo](https://github.com/vhbelvadi/webwriterscollective.com), install Hugo and any dependencies if you have not done so already, and create your author page by running the following command from the terminal:
 
 ```
 hugo new authors/firstname-lastname --kind author
@@ -180,7 +180,7 @@ If you downloaded the file above, simply e-mail the file to [James G](mailto:rea
 
 # 4. Fixing typos and making minor changes {#fixing-typos}
 
-Unfortunately, you will need to be familiar with git for this. Please make your changes to [this website’s repo](git@github.com:vhbelvadi/webwriterscollective.com.git) and submit a pull request.
+Unfortunately, you will need to be familiar with git for this. Please make your changes to [this website’s repo](https://github.com/vhbelvadi/webwriterscollective.com) and submit a pull request.
 
 However, we appreciate that you might spot an error or wish to suggest improvements and either might not know Git or might not want to spend time making the fixes or improvements yourself. In such cases, please do not hesitate to [write to us](mailto:hello@vhbelvadi.com) directly.
 
@@ -190,7 +190,7 @@ However, we appreciate that you might spot an error or wish to suggest improveme
 
 We realise there may be times when it is worth *really* drawing people’s attention to something, much more than posting to the noticeboard or pinning a notice might do. For such times, we have a banner available for you to hoise at the very top of the WWC website. Use this power responsibly.
 
-To add a banner you will need to be familiar with Git and Hugo and make your changes to [this website’s repo](git@github.com:vhbelvadi/webwriterscollective.com.git). If you are not familiar with Git, please get in touch with us and we will sort things out for you.
+To add a banner you will need to be familiar with Git and Hugo and make your changes to [this website’s repo](https://github.com/vhbelvadi/webwriterscollective.com). If you are not familiar with Git, please get in touch with us and we will sort things out for you.
 
 You will need to edit just one file located in `/content/banner/index.md` which has the following front matter:
 
