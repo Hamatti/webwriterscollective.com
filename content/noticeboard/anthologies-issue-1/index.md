@@ -11,7 +11,7 @@ type: notice
 draft: false
 pin: true
 ---
-Our first edition of *Anthologies*, which we will publish on the web, will be on the theme of ***Beginnings***. 
+Our first edition of *Anthologies*, which we will publish on the web, will be on the theme of <strong class="text-accent">Beginnings</strong>. 
 
 The deadline for submitting pieces to the zine is **30 September 2026**. We will curate and prepare the zine in the months following the deadline.
 

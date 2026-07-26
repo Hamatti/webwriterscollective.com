@@ -10,7 +10,7 @@
 {{ end }}
 
 {{ range $issues }}
-    <div class="issue-card {{ $sizer }} {{ if eq $sizer "small-size" }}max-w-[450px]!{{ end }} border border-foreground flex flex-col {{ if ne $sizer "small-size" }}lg:flex-row items-stretch gap-y-1.5{{ else }} items-start {{ end }} justify-between gap-x-2 p-1 lg:p-1.5 bg-offset">
+    <div class="issue-card {{ $sizer }} {{ if eq $sizer "small-size" }}max-w-[450px]!{{ end }} border border-foreground flex flex-col {{ if ne $sizer "small-size" }}lg:flex-row lg:flex-wrap xl:flex-nowrap items-stretch gap-y-1.5{{ else }} items-start {{ end }} justify-between gap-x-2 p-1 lg:p-1.5 bg-offset">
         <div class="flex flex-col items-start justify-start {{ if ne $sizer "small-size" }}lg:justify-between lg:max-w-[30%]{{ end }} gap-x-2">
             {{ with .Resources.GetMatch .Params.cover }}
                 <div class="aspect-video mb-1">
