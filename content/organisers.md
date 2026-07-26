@@ -7,15 +7,17 @@ draft: false
 
 WWC is a collective that does not subscribe to a hierarchy. Instead we have organisers who have kindly volunteered to take on some of the responsibilities of running this collective. The collective was originally brought together by James:
 
-***James G.*** [Website](https://jamesg.blog) **—** [Email](mailto:wwc@jamesg.blog) **—** Signal: `@capjamesg.01`
+***James G.*** (he/him) **—** [Website](https://jamesg.blog) **—** [Email](mailto:wwc@jamesg.blog) **—** Signal: `@capjamesg.01`
 
 Our other organisers are listed below in alphabetical order:
 
 ***Brennan Kenneth Brown*** [Website](https://brennan.day) **—** [Email](mail@brennanbrown.ca) **—** Signal: [`@brennan.04`](https://signal.me/#eu/CWQvwj8f-ksHCpDkuPE_EizbOXDmH5-eBtKFMNB3-R2r-gG3oY5JzY759Yl7q5wV) **—** Fediverse: `@brennan@social.lol`
 
-***Naty S.*** [Website](https://burgeonlab.com/) **—** [Contact](https://burgeonlab.com/contact/)
+***Juhis*** (he/him) **—** [Website](hamatti.org) **—** [Email](contact@hamatti.org) (he/him)
 
-***V.H. Belvadi*** [Website](https://vhbelvadi.com) **—** [Email](mailto:hello@vhbelvadi.com) **—** [Signal](https://signal.me/#eu/RBqtaVYC8Kkdm586KMc9Js_6GJJ1_p5rWzueJqqGjmFwKn8dEBlE1Ycsnq8_5ulx) **—** [Bluesky](https://bsky.app/profile/vhbelvadi.com)
+***Naty S.*** (she/her) **—** [Website](https://burgeonlab.com/) **—** [Contact](https://burgeonlab.com/contact/)
+
+***V.H. Belvadi*** (he/him) **—** [Website](https://vhbelvadi.com) **—** [Email](mailto:hello@vhbelvadi.com) **—** [Signal](https://signal.me/#eu/RBqtaVYC8Kkdm586KMc9Js_6GJJ1_p5rWzueJqqGjmFwKn8dEBlE1Ycsnq8_5ulx) **—** [Bluesky](https://bsky.app/profile/vhbelvadi.com)
 
 # Volunteer
 
