@@ -5,10 +5,8 @@
       <h2>{{ .Params.subtitle }}</h2>
       {{ with .Parent.Params.issue_notice }}<a href="{{ . }}" class="button secondary">Looking for our current theme?</a>{{ end }}
     </header>
-    <div class="basis-[50%] prose w-(--article-width) max-w-full">
+    <div class="basis-[75%] prose w-(--article-width) max-w-full">
         {{ .Content }}
-    </div>
-    <div class="basis-[20%] flex justify-end self-end">
     </div>
 </article>
 {{ end }}
