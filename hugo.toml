@@ -9,5 +9,7 @@ theme = "webwriterscollective"
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.parser]
+      autoHeadingID = true
     [markup.goldmark.renderer]
       unsafe = true
