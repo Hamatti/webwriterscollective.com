@@ -16,7 +16,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 # 1. Discussions
 
-**1.1.** Writing can be an intimite topic: discussing things like writers block, ideas we're developing, and much more can make us feel vulnerable. No discussions that take place in WWC should be shared outside of the group chat or forum without asking explicitly for permission.
+**1.1.** Writing can be an intimate topic: discussing things like writers block, ideas we're developing, and much more can make us feel vulnerable. No discussions that take place in WWC should be shared outside of the group chat or forum without asking explicitly for permission.
 
 **1.2.** You can, however, mention the essence of a discussion, i.e. mentioning a discussion as inspiration for a blog post you are writing, provided doing so is appropriate and will not reveal anyone's identity or displace credit due to them.
 
@@ -34,11 +34,23 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 # 3. Technical and unrelated topics
 
-**3.1.** It would be hard for us to accommodate both technical and non-technical writing right simulteneously at the moment. This may change in future. If you have discussions about technical writing, we recommend seeking other communities[^1] or see §3.3
+**3.1.** It would be hard for us to accommodate both technical and non-technical writing at the moment. This may change in future. If you have discussions about technical writing, we recommend seeking other communities[^1] or see §3.3
 
 **3.2.** While we enjoy talking occasionally about features on our personal website, if you are looking for sustained discussions on these themes please seek other communities[^2] or see §3.3.
 
 **3.3** In order to foster a strong sense of community we offer spaces where our members can have discussions on topics not directly related to WWC, such as on our forum. Please feel free to use those spaces especially if you prefer not to join another community for that reason alone.
+
+# 4. NSFW content
+
+**4.1.** We do not allow any content that may be deemed Not Safe For Work (NSFW). <!--This includes violence, slurs, pornography etc.-->
+
+**4.2.** Adding a disclaimer does not change our permissions for NSFW content.
+
+**4.3.** This section applies to everything shared on WWC spaces, including direct posts on our forums, messages on our Signal group and any of your own work that you may share on WWC.
+
+**4.4.** Members may be removed from the collective for sharing NSFW content intentionally and/or repeatedly.
+
+**4.5.** Where it may not be clear whether something qualifies as NSFW, [our organisers](/organisers) reserve the right to decide on allowing or disallowing said content.
 
 ***
 
