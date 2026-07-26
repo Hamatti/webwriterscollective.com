@@ -9,7 +9,7 @@ WWC is a collective that does not subscribe to a hierarchy. Instead we have orga
 
 The collective was originally brought together by James, who also serves as admin of [our forum](/forum). Our other organisers are listed in alphabetical order:
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-1.5 w-full my-2">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-1.5 w-full my-2 items-start">
     <!-- James -->
     {{< organiser name="James G." pronouns="he/him" website="https://jamesg.blog" email="wwc@jamesg.blog" signal_handle="@capjamesg.01">}}
     <!-- Brennan -->
