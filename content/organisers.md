@@ -14,6 +14,8 @@ The collective was originally brought together by James, who also serves as admi
     {{< organiser name="James G." pronouns="he/him" website="https://jamesg.blog" email="wwc@jamesg.blog" signal_handle="@capjamesg.01">}}
     <!-- Brennan -->
     {{< organiser name="Brennan Kenneth Brown" website="https://brennan.day" email="mail@brennanbrown.ca" signal_handle="@brennan.04" signal_link="https://signal.me/#eu/CWQvwj8f-ksHCpDkuPE_EizbOXDmH5-eBtKFMNB3-R2r-gG3oY5JzY759Yl7q5wV" other_label_1="Fedi" other_value_1="@brennan@social.lol">}}
+    <!-- Joel -->
+    {{< organiser name="Joel" website="httos://joelchrono.xyz" email="me@joelchrono.xyz" >}}
     <!-- Juhis -->
     {{< organiser name="Juhis" website="https://hamatti.org" email="contact@hamatti.org" pronouns="he/him">}}
     <!-- Naty -->
