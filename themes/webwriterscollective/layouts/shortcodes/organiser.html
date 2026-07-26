@@ -1,0 +1,96 @@
+<div class="flex flex-col w-full p-1 border border-foreground items-stretch justify-between bg-offset">
+    <!-- SUPPORTED VALUES
+    {{ .Get "name" }}
+    {{ .Get "pronouns" }}
+
+    {{ .Get "website" }}
+    {{ .Get "email" }}
+    {{ .Get "contact_page" }}
+
+    {{ .Get "signal_link" }}
+    {{ .Get "signal_handle" }}
+
+    {{ .Get "other_label_1" }}
+    {{ .Get "other_link_1" }}
+    {{ .Get "other_value_1" }}
+
+    {{ .Get "other_label_2" }}
+    {{ .Get "other_link_2" }}
+    {{ .Get "other_value_2" }}
+
+    {{ .Get "other_label_3" }}
+    {{ .Get "other_link_3" }}
+    {{ .Get "other_value_3" }}
+    -->
+    {{ $website := .Get "website" }}
+    <div class="mb-1 org-name">
+        <div class="text-accent font-bold">{{ .Get "name" }}</div>
+        {{ with (.Get "pronouns") }}<div class="text-foreground/40 font-normal text-base">({{ . }})</div>{{ end }}
+    </div>
+
+    <div class="org-body flex flex-col gap-0.25">
+        <!-- WEBSITE -->
+        {{ with $website }}
+            <div class="flex flex-row gap-0.5 w-full h-1.75 items-center justify-start">
+                    <div class="basis-1/4 all-caps text-sm mt-0.25 font-medium">Website</div>
+                    <div class="basis-3/4"><a href="{{ $website }}">{{ strings.TrimPrefix "www." (urls.Parse .).Host }}</a></div>
+            </div>
+        {{ end }}
+
+        <!-- EMAIL -->
+        {{ with (.Get "email") }}
+            <div class="flex flex-row gap-0.5 w-full h-1.75 items-center justify-start">
+                    <div class="basis-1/4 all-caps text-sm mt-0.25 font-medium">Email</div>
+                    <div class="basis-3/4"><a href="mailto:{{ . }}">{{ . }}</a></div>
+            </div>
+        {{ end }}
+
+        <!-- CONTACT PAGE -->
+        {{ with (.Get "contact_page") }}
+            <div class="flex flex-row gap-0.5 w-full h-1.75 items-center justify-start">
+                    <div class="basis-1/4 all-caps text-sm mt-0.25 font-medium">Contact</div>
+                    <div class="basis-3/4"><a href="{{ . }}">Send a message</a></div>
+            </div>
+        {{ end }}
+
+        <!-- SIGNAL -->
+        {{ $signalHandle := .Get "signal_handle" }}
+        {{ $signalLink := .Get "signal_link" }}
+
+        {{ if or $signalHandle $signalLink }}
+        <div class="flex flex-row gap-0.5 w-full h-1.75 items-center justify-start">
+            <div class="basis-1/4 all-caps text-sm mt-0.25 font-medium">Signal</div>
+            <div class="basis-3/4">
+                {{ if $signalLink }}<a href="{{ $signalLink }}">{{ end }}
+                    {{ if $signalHandle }}{{ $signalHandle }}{{ else }}Send a message{{ end }}
+                {{ if $signalLink }}</a>{{ end }}
+            </div>
+        </div>
+        {{ end }}
+
+        <!-- GATHER OTHERS -->
+        {{ $other_label_1 := .Get "other_label_1" }}
+        {{ $other_link_1 := .Get "other_link_1" }}
+        {{ $other_value_1 := .Get "other_value_1" }}
+        {{ $other_label_2 := .Get "other_label_2" }}
+        {{ $other_link_2 := .Get "other_link_2" }}
+        {{ $other_value_2 := .Get "other_value_2" }}
+        {{ $other_label_3 := .Get "other_label_3" }}
+        {{ $other_link_3 := .Get "other_link_3" }}
+        {{ $other_value_3 := .Get "other_value_3" }}
+
+        <!-- OTHER 1 -->
+        {{ if and $other_label_1 ( or $other_value_1 $other_link_1 ) }}
+            <div class="flex flex-row gap-0.5 w-full h-1.75 items-center justify-start">
+                    <div class="basis-1/4 all-caps text-sm mt-0.25 font-medium">{{ $other_label_1 }}</div>
+                    <div class="basis-3/4">
+                        {{ if $other_link_1 }}<a href="{{ $other_link_1 }}">{{ end }}
+                            {{ if $other_value_1 }}{{ $other_value_1 }}{{ else }}Visit &nearr;{{ end }}
+                        {{ if $other_link_1 }}</a>{{ end }}
+                    </div>
+            </div>
+        {{ end }}
+
+    </div>
+
+</div>
