@@ -42,15 +42,17 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 # 4. NSFW content
 
-**4.1.** We do not allow any content that may be deemed Not Safe For Work (NSFW). <!--This includes violence, slurs, pornography etc.-->
+**4.1.** We do not allow any content on WWC spaces that may be deemed Not Safe For Work (NSFW). This includes sharing or discussing pornography, sexual preferences, sexual acts and graphic violence, real or fictional.
 
-**4.2.** Adding a disclaimer does not change our permissions for NSFW content.
+**4.2.** Adding a disclaimer does not change our restrictions on NSFW content.
 
 **4.3.** This section applies to everything shared on WWC spaces, including direct posts on our forums, messages on our Signal group and any of your own work that you may share on WWC.
 
 **4.4.** Members may be removed from the collective for sharing NSFW content intentionally and/or repeatedly.
 
 **4.5.** Where it may not be clear whether something qualifies as NSFW, [our organisers](/organisers) reserve the right to decide on allowing or disallowing said content.
+
+**4.6.** WWC allows sharing NSFW content incidentally, i.e. when such content is not the topic of discussion. We also allow linking to NSFW content on an external site so long as the link clarifies that the content that will subsequently load qualifies as NSFW by our definition in §4.1.
 
 ***
 
