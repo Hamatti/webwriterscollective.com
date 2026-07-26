@@ -5,19 +5,22 @@ type: page
 draft: false
 ---
 
-WWC is a collective that does not subscribe to a hierarchy. Instead we have organisers who have kindly volunteered to take on some of the responsibilities of running this collective. The collective was originally brought together by James:
+WWC is a collective that does not subscribe to a hierarchy. Instead we have organisers who have kindly volunteered to take on some of the responsibilities of running this collective.
 
-***James G.*** (he/him) **—** [Website](https://jamesg.blog) **—** [Email](mailto:wwc@jamesg.blog) **—** Signal: `@capjamesg.01`
+The collective was originally brought together by James, who also serves as admin of [our forum](/forum). Our other organisers are listed in alphabetical order:
 
-Our other organisers are listed below in alphabetical order:
-
-***Brennan Kenneth Brown*** [Website](https://brennan.day) **—** [Email](mail@brennanbrown.ca) **—** Signal: [`@brennan.04`](https://signal.me/#eu/CWQvwj8f-ksHCpDkuPE_EizbOXDmH5-eBtKFMNB3-R2r-gG3oY5JzY759Yl7q5wV) **—** Fediverse: `@brennan@social.lol`
-
-***Juhis*** (he/him) **—** [Website](hamatti.org) **—** [Email](contact@hamatti.org) (he/him)
-
-***Naty S.*** (she/her) **—** [Website](https://burgeonlab.com/) **—** [Contact](https://burgeonlab.com/contact/)
-
-***V.H. Belvadi*** (he/him) **—** [Website](https://vhbelvadi.com) **—** [Email](mailto:hello@vhbelvadi.com) **—** [Signal](https://signal.me/#eu/RBqtaVYC8Kkdm586KMc9Js_6GJJ1_p5rWzueJqqGjmFwKn8dEBlE1Ycsnq8_5ulx) **—** [Bluesky](https://bsky.app/profile/vhbelvadi.com)
+<div class="grid grid-cols-1 md:grid-cols-2 gap-1.5 w-full my-2">
+    <!-- James -->
+    {{< organiser name="James G." pronouns="he/him" website="https://jamesg.blog" email="wwc@jamesg.blog" signal_handle="@capjamesg.01">}}
+    <!-- Brennan -->
+    {{< organiser name="Brennan Kenneth Brown" website="https://brennan.day" email="mail@brennanbrown.ca" signal_handle="@brennan.04" signal_link="https://signal.me/#eu/CWQvwj8f-ksHCpDkuPE_EizbOXDmH5-eBtKFMNB3-R2r-gG3oY5JzY759Yl7q5wV" other_label_1="Fedi" other_value_1="@brennan@social.lol">}}
+    <!-- Juhis -->
+    {{< organiser name="Juhis" website="https://hamatti.org" email="contact@hamatti.org" pronouns="he/him">}}
+    <!-- Naty -->
+    {{< organiser name="Naty S" website="https://burgeonlab.com/" contact_page="https://burgeonlab.com/contact/" pronouns="she/her">}}
+    <!-- V.H. Belvadi -->
+    {{< organiser name="V.H. Belvadi" pronouns="he/him" website="https://vhbelvadi.com" email="hello@vhbelvadi.com" signal_link="https://signal.me/#eu/RBqtaVYC8Kkdm586KMc9Js_6GJJ1_p5rWzueJqqGjmFwKn8dEBlE1Ycsnq8_5ulx" other_label_1="Bluesky" other_link_1="https://bsky.app/profile/vhbelvadi.com" >}}
+</div>
 
 # Volunteer
 
