@@ -76,7 +76,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 #### 4.1.
 
- We do not allow any content on WWC spaces that may be deemed Not Safe For Work (NSFW). This includes sharing or discussing pornography, sexual preferences, sexual acts and graphic violence, real or fictional.
+ We do not allow any content on WWC spaces that may be deemed Not Safe For Work (NSFW). This includes sharing or discussing pornography, sexual acts, gratuitous or off-topic sexual text or imagery, fetish farming, the sexualization of non-sexual content, and graphic violence, real or fictional.
 
 #### 4.2.
 
@@ -100,7 +100,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 #### 4.7.
 
- In case of content that is not prohibited by this community, where such content is nevertheless potentially troubling, please consider using appropriate content warnings (e.g. sensitive topics like abuse, self-harm etc.). However, not using content warnings does not amount to a violation of this code of conduct.
+ In case of content that is not prohibited by this community, where such content is nevertheless potentially troubling or may be perceived as NSFW, please consider using appropriate content warnings (e.g. sensitive topics like abuse and self-harm, or if you run a blog on erotica etc.). However, not using content warnings does not amount to a violation of this code of conduct.
 
 #### 4.8.
 
