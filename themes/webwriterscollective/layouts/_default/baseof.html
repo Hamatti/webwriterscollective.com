@@ -31,7 +31,7 @@
 
     {{ block "head" . }}{{ end }}
 </head>
-<body class="max-w-350 mx-auto">
+<body class="max-w-350 mx-auto {{ delimit (split (strings.Trim .RelPermalink "/") "/") " " }}">
   {{ partial "nav.html" . }}
   <main class="mx-1 lg:mx-1.5 py-6">
       {{ block "main" . }}{{ end }}
