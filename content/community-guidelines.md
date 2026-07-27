@@ -170,9 +170,9 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 #### 7.8.
 
- Only the following actions qualify as reporting to a moderator or organiser:
+ Only the following qualify as reporting to moderators/organisers:
  - sending them an email
- - using their own contact form on their website (only where such preference is stated)
+ - using a contact form on their website (if explicitly preferred)
  - direct messaging on Signal
  - flagging a post on our forum
   
