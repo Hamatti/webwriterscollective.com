@@ -18,7 +18,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 #### 1.1.
 
- Writing can be an intimate topic: discussing things like writers block, ideas we're developing, and much more can make us feel vulnerable. No discussions that take place in WWC should be shared outside of the group chat or forum without asking explicitly for permission.
+ Writing can be an intimate topic: discussing things like writers block, ideas we're developing, and much more can make us feel vulnerable. No discussions that take place in the WWC Signal chat, which is private, or any areas of the forum marked *private*, should be discussed publicly.
 
 #### 1.2.
 
@@ -26,7 +26,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 #### 1.3.
 
- We require that all discussions be kept confidential so that everyone feels comfortable to share freely what they are thinking in terms of writing. Please work with the default assumption of confidentiality for all discussions within WWC spaces.
+ We require that all discussions in the Signal group and in areas of our forum marked *private* are kept confidential so that everyone feels comfortable to share freely what they are thinking in terms of writing.
 
 #### 1.4.
 
@@ -42,7 +42,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 #### 1.7.
 
- Sharing material from the group inappropriately will be treated as a violation of our code of conduct.
+Publicly sharing anything from that was originally discussed in the WWC Signal chat or on areas of our forum marked *private* will be treated as a violation of our community guidelines.
 
 # 2. Promotion
 
@@ -100,9 +100,13 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 #### 4.7.
 
- In case of content that is not prohibited by this community, where such content is nevertheless potentially troubling or may be perceived as NSFW, please consider using appropriate content warnings (e.g. sensitive topics like abuse and self-harm, or if you run a blog on erotica etc.). However, not using content warnings does not amount to a violation of this code of conduct.
+ In case of content that is not prohibited by this community, where such content is nevertheless potentially troubling or may be perceived as NSFW, please consider using appropriate content warnings (e.g. sensitive topics or if you run a blog on erotica etc.). However, not using content warnings does not amount to a violation of this code of conduct.
 
-#### 4.8.
+ #### 4.8
+
+ Discussion of abuse and self-harm are strictly prohibited in accordance with the [UK Online Safety Act](https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer).
+
+ #### 4.9.
 
  It should go without saying but we will say it anyway: please do not post illegal content.
 
