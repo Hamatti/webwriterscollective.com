@@ -213,11 +213,11 @@ h4 {
     }
 
     ul {
-        @apply list-disc pl-1.5;
+        @apply list-disc pl-1.5 mt-0!;
     }
 
     ol {
-        @apply list-decimal pl-1.5;
+        @apply list-decimal pl-1.5 mt-0!;
     }
 
     hr {
