@@ -19,7 +19,7 @@ The collective was originally brought together by James, who also serves as admi
     <!-- Juhis -->
     {{< organiser name="Juhis" website="https://hamatti.org" email="contact@hamatti.org" pronouns="he/him">}}
     <!-- Naty -->
-    {{< organiser name="Naty S" website="https://burgeonlab.com/" contact_page="https://burgeonlab.com/contact/" pronouns="she/her">}}
+    {{< organiser name="Naty S" website="https://burgeonlab.com/" contact_page="https://burgeonlab.com/contact/" pronouns="she/her" other_label_1="Mastodon" other_link_1="https://fosstodon.org/@eclecticpassions">}}
     <!-- V.H. Belvadi -->
     {{< organiser name="V.H. Belvadi" pronouns="he/him" website="https://vhbelvadi.com" email="hello@vhbelvadi.com" signal_link="https://signal.me/#eu/RBqtaVYC8Kkdm586KMc9Js_6GJJ1_p5rWzueJqqGjmFwKn8dEBlE1Ycsnq8_5ulx" other_label_1="Bluesky" other_link_1="https://bsky.app/profile/vhbelvadi.com" >}}
 </div>
