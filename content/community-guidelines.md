@@ -14,7 +14,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 ***Scope*** Our code of conduct extends to this website, to our Signal group and to our forum. It also applies to any projects that originate in WWC spaces in any capacity, as well as wherever an expectation may reasonably exist of the involvement of WWC itself or of one of its organisers and any unofficial spaces where there is a reasonable expectation of association with WWC. Collectively, we call these WWC spaces, and they may be either online or offline or both.
 
-# 1. Confidentiality and privacy
+# 1. Confidentiality and privacy {#sec-1}
 
 #### 1.1.
 
@@ -170,7 +170,13 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 #### 7.8.
 
- Only the following actions qualify as reporting to a moderator or organiser: emailing, using an organiser’s own contact form on their website (where such preference is stated) or a direct message on Signal. Please consult [our organisers page](/organisers) for up-to-date information on what an organiser’s preferred means of contact are. Forum posts and rants on WWC spaces do not amount to a report.
+ Only the following actions qualify as reporting to a moderator or organiser:
+ - sending them an email
+ - using their own contact form on their website (only where such preference is stated)
+ - direct messaging on Signal
+ - flagging a post on our forum
+  
+ Please consult [our organisers page](/organisers) for up-to-date information on what an organiser’s preferred means of contact are. Please do not ‘report’ anything publicly on social media – these may amount to a violation of [§1](#sec-1). Forum posts and rants on WWC spaces do not amount to a report.
 
 #### 7.9.
 
