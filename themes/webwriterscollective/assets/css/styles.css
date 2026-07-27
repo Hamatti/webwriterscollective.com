@@ -161,7 +161,7 @@ strong {
         @apply mb-1.5;
     }
 
-    .prose &:has(+ :is(h1, h2, h3, h4, h5, h6)) {
+    .prose &:has(+ :is(h1, h2, h3, h5, h6)) {
         @apply -mb-2!;
     }
 }
@@ -199,10 +199,14 @@ h3 {
         @apply italic mt-3.5 mb-1;
     }
 }
+h4 {
+    @apply float-left text-accent text-[1em] font-bold mb-0! mr-0.5;
+    font-feature-settings: var(--sans-features), "onum" 0, "tnum" 1 !important;
+}
 
 /* PROSE */
 .prose {
-    @apply text-body [&>:is(p,ul,ol,blockquote,aside,figure,img)+:is(p,ul,ol,blockquote,pullquote,aside,figure,img)]:mt-1.5;
+    @apply text-body [&>:is(h4,p,ul,ol,blockquote,aside,figure,img)+:is(h4,p,ul,ol,blockquote,pullquote,aside,figure,img)]:mt-1.5;
 
     & a {
         @apply underline decoration-wavy hover:text-accent transition-fade decoration-accent;
@@ -297,12 +301,6 @@ strong em, em strong {
         & :is(h1,h2,h3,h4,h5,h6) {
             font-feature-settings: var(--sans-features), "onum" 0, "tnum" 1 !important;
             @apply text-accent;
-        }
-        & > p {
-            & > strong:first-of-type {
-                font-feature-settings: var(--sans-features), "onum" 0, "tnum" 1 !important;
-                @apply text-accent;
-            }
         }
     }
 }
