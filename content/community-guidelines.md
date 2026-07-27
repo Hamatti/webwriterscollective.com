@@ -36,7 +36,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 **2.2.** You are welcome to share your blog posts and drafts. Please avoid sharing too many of your own blog posts: sharing to WWC shouldn't be on your mental checklist when you publish a blog post, unless you think the post would be especially interesting to the group and be likely to start a discussion.
 
-**2.3.** We do not encourage or permit commercial arrangements for promotions or commercially-targetted promotions of any kind.
+**2.3.** We do not encourage or permit commercial arrangements for promotions or commercially-targeted promotions of any kind.
 
 # 3. Technical and unrelated topics
 
@@ -44,7 +44,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 **3.2.** While we enjoy talking occasionally about features on our personal website, if you are looking for sustained discussions on these themes please seek other communities[^2] or see §3.3.
 
-**3.3** In order to foster a strong sense of community we offer spaces where our members can have discussions on topics not directly related to WWC, such as on our forum. Please feel free to use those spaces especially if you prefer not to join another community for that reason alone.
+**3.3.** In order to foster a strong sense of community we offer spaces where our members can have discussions on topics not directly related to WWC, such as on our forum. Please feel free to use those spaces especially if you prefer not to join another community for that reason alone.
 
 # 4. NSFW content and legality
 
@@ -96,7 +96,7 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 **7.6.** While moderators or organisers may respond to situations or choose to review incidents of their own cognisance, there will be no expectation that moderators or organisers will track all incidents and behaviours unless those are reported to them.
 
-**7.7** On our forum, moderators’ decisions are final unless a majority of our organisers choose to review a decision. Members may request organisers to re-consider a moderator’s decision by getting in touch with one of [our organisers](/organisers).
+**7.7.** On our forum, moderators’ decisions are final unless a majority of our organisers choose to review a decision. Members may request organisers to re-consider a moderator’s decision by getting in touch with one of [our organisers](/organisers).
 
 **7.8.** Only the following actions qualify as reporting to a moderator or organiser: emailing, using an organiser’s own contact form on their website (where such preference is stated) or a direct message on Signal. Please consult [our organisers page](/organisers) for up-to-date information on what an organiser’s preferred means of contact are. Forum posts and rants on WWC spaces do not amount to a report.
 
