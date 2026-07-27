@@ -124,7 +124,7 @@
 
 /* UNIVERSAL */
 html {
-    @apply text-base font-sans text-foreground bg-background font-[435] tracking-[-0.02em];
+    @apply text-base font-sans text-foreground bg-background font-[435] tracking-[-0.015em];
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
