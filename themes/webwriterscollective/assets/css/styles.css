@@ -290,3 +290,19 @@ strong em, em strong {
         @apply decoration-0! text-accent;
     }
 }
+
+/* SPECIAL ONE-OFF STYLES */
+.community-guidelines {
+    & .prose {
+        & :is(h1,h2,h3,h4,h5,h6) {
+            font-feature-settings: var(--sans-features), "onum" 0, "tnum" 1 !important;
+            @apply text-accent;
+        }
+        & > p {
+            & > strong:first-of-type {
+                font-feature-settings: var(--sans-features), "onum" 0, "tnum" 1 !important;
+                @apply text-accent;
+            }
+        }
+    }
+}
