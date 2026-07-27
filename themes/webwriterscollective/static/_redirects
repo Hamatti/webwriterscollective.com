@@ -1,2 +1,5 @@
 /forum    https://forum.webwriterscollective.com    301
 /forum/*  https://forum.webwriterscollective.com/:splat 301
+/organizers    /organisers    301
+/coc    /community-guidelines    301
+/code-of-conduct    /community-guidelines    301
