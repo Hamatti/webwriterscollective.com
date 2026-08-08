@@ -18,7 +18,11 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 #### 1.1. {#1-1}
 
-WWC defines ‘privacy’ in terms of the collective rather than the individual. Due to the nature of a forum, we cannot promise individual ‘privacy’. We do, however, mark spaces as *Members-Only* when an expectation exists that discussions in that space will remain strictly amongst members of the collective (this includes past, existing and new members). Privacy is therefore defined relative to sharing with the public internet or non-members. An expectation of privacy therefore means upholding confidentiality amongst members of WWC and we request any members leaving the collective to please continue to uphold the confidentiality of discussions had while within WWC spaces.
+WWC defines ‘privacy’ in terms of the collective rather than the individual. Due to the nature of a forum, we cannot promise individual ‘privacy’. We do, however, mark spaces as *Members-Only* when an expectation exists that discussions in that space will remain strictly amongst members of the collective (this includes past, existing and new members).
+
+Privacy is therefore defined relative to sharing with the public internet or non-members. An expectation of privacy means upholding confidentiality amongst all members of WWC away from the general public and not between individual members of the collective.
+
+We request any members leaving the collective to please continue to uphold the confidentiality of discussions had while within WWC spaces.
 
 #### 1.2.
 
