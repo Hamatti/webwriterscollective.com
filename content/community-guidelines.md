@@ -8,7 +8,7 @@ draft: false
 
 
 
-We do not have a separate code of conduct for WWC. Instead we operate under the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct). The code of conduct listed on this page are therefore an addenda to the IndieWeb Code of Conduct, and like the IndieWeb Code of Conduct this is a living document. We encourage our members to propose additions and modifications by getting in touch with one of [our organisers](/organisers).
+We do not have a separate code of conduct for WWC. Instead we operate under the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct). The codes of conduct listed on this page are therefore addenda to the IndieWeb Code of Conduct, and like the IndieWeb Code of Conduct this is a living document. We encourage our members to propose additions and modifications by getting in touch with one of [our organisers](/organisers).
 
 ***Reporting violations*** If you would like to raise a potential violation of the code of conduct, please get in touch with one of [our organisers](/organisers) or reach out to a moderator on [our forum](/forum). Anyone found in violation of our code of conduct will be removed from the collective. However, not all reports will result in removal, and all reports must go through our moderators and/or organisers. For more details see [§7](#sec-7).
 
@@ -16,33 +16,39 @@ We do not have a separate code of conduct for WWC. Instead we operate under the 
 
 # 1. Confidentiality and privacy {#sec-1}
 
-#### 1.1.
+#### 1.1. {#1-1}
 
- Writing can be an intimate topic: discussing things like writers block, ideas we're developing, and much more can make us feel vulnerable. No discussions that take place in the WWC Signal chat, which is private, or any areas of the forum marked *private*, should be discussed publicly.
+WWC defines ‘privacy’ in terms of the collective rather than the individual. Due to the nature of a forum, we cannot promise individual ‘privacy’. We do, however, mark spaces as *Members-Only* when an expectation exists that discussions in that space will remain strictly amongst members of the collective (this includes past, existing and new members). Privacy is therefore defined relative to sharing with the public internet or non-members. An expectation of privacy therefore means upholding confidentiality amongst members of WWC and we request any members leaving the collective to please continue to uphold the confidentiality of discussions had while within WWC spaces.
 
 #### 1.2.
 
- You can, however, mention the essence of a discussion, i.e. mentioning a discussion as inspiration for a blog post you are writing, provided doing so is appropriate and will not reveal anyone's identity or displace credit due to them. If you wish to quote someone, unless it is obvious that they intended their words publicly (e.g. they have previously said as much on their own website), please seek their permission first.
+ Discussions that take place in the WWC Signal chat, which is for members alone, or any areas of the forum marked *Members-Only*, should *not* be discussed publicly. 
+
+ Discussing writing can be an intimate topic and can make us feel vulnerable. Members who share in these WWC spaces do so with an expectation that these discussions will remain amongst members alone.
 
 #### 1.3.
 
- We require that all discussions in the Signal group and in areas of our forum marked *private* are kept confidential so that everyone feels comfortable to share freely what they are thinking in terms of writing.
+ You can, however, mention the essence of a discussion, i.e. mentioning a discussion as inspiration for a blog post you are writing, provided doing so is appropriate and will not reveal anyone's identity or displace credit due to them. If you wish to quote someone, unless it is obvious that they intended their words publicly (e.g. they have previously said as much on their own website), please seek their permission first.
 
 #### 1.4.
 
- Do not share screenshots, recordings or other means of capturing WWC activity publicly unless doing so has been previously agreed upon by the community or is from an event or space that was already public.
+ We require that all discussions in the Signal group and in areas of our forum marked *Members-Only* are kept confidential so that everyone feels comfortable to share freely what they are thinking in terms of writing.
 
 #### 1.5.
 
- A member’s explicit request for privacy will override all other allowances.
+ Do not share screenshots, recordings or other means of capturing WWC activity publicly unless doing so has been previously agreed upon by the community or is from an event or space that was already public.
 
 #### 1.6.
 
- If you feel someone has shared something publicly that you expected would be kept private please contact one of [our organisers](/organisers).
+ A member’s explicit request for privacy as defined in [§1.1](#1-1) will override all other allowances.
 
 #### 1.7.
 
-Publicly sharing anything from that was originally discussed in the WWC Signal chat or on areas of our forum marked *private* will be treated as a violation of our community guidelines.
+ If you believe someone has shared publicly something you expected would be kept amongst members please contact one of [our organisers](/organisers).
+
+#### 1.8.
+
+Publicly sharing anything that was originally discussed in the WWC Signal chat or on areas of our forum marked *Members-Only* will be treated as a violation of our community guidelines.
 
 # 2. Promotion
 
@@ -118,11 +124,11 @@ Publicly sharing anything from that was originally discussed in the WWC Signal c
 
 #### 5.2.
 
- We have a no tolerance policy towards harassment and discrimination. This includes, among other things, insults, intimidation, stalking, unwanted sexual attention, deliberate exclusion, discriminatory language, threats, intentionally and repeatedly misuins pronouns, name-calling and disruption.
+ We have a zero tolerance policy towards harassment and discrimination. This includes, among other things, insults, intimidation, stalking, unwanted sexual attention, deliberate exclusion, discriminatory language, threats, intentionally and repeatedly misusing pronouns, name-calling and disruption.
 
 #### 5.3.
 
- We all make mistakes. At WWC we expect responsiveness over perfection. If someone brings to your attention potential issues in your behaviour, please consider it earnestly. If someone requests you to stop a behaviour or conversation that is troubling to them, please do so.
+ We all make mistakes. At WWC we expect responsiveness over perfection. If someone brings to your attention potential issues in your behaviour, please consider it in earnest. If someone requests you to stop a behaviour or conversation that is troubling to them, please do so.
 
 # 6. Community culture
 
@@ -132,7 +138,7 @@ Publicly sharing anything from that was originally discussed in the WWC Signal c
 
 #### 6.2.
 
- When offerring criticism, do so constructively with the aim of collectively making improvements and not merely demonstrating your own expertise.
+ When offering criticism, do so constructively with the aim of collectively making improvements and not merely demonstrating your own expertise.
 
 #### 6.3.
 
@@ -188,11 +194,11 @@ Publicly sharing anything from that was originally discussed in the WWC Signal c
 
 ***
 
-***Credits*** Our community guidelines draw on the excellent work already present in the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct), the 32-Bit Cafe [code of conduct](https://32bit.cafe/about/codeofconduct.php) and [forum rules](https://discourse.32bit.cafe/t/read-first-forum-rules/16), the Mozilla [Community Participation Guidelines](https://www.mozilla.org/en-GB/about/governance/policies/participation/) and the [Contributor covenant](https://www.contributor-covenant.org/).
+***Credits*** Our community guidelines draw on the excellent work already present in the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct), the 32-Bit Cafe [code of conduct](https://32bit.cafe/about/codeofconduct.php) and [forum rules](https://discourse.32bit.cafe/t/read-first-forum-rules/16), the Mozilla [Community Participation Guidelines](https://www.mozilla.org/en-GB/about/governance/policies/participation/) and the [Contributor Covenant](https://www.contributor-covenant.org/).
 
 ***
 
-Interesting in joining our community? Learn more [about us](/about).
+Interested in joining our community? Learn more [about us](/about).
 
 [^1]: For example, [*Write the Docs*](https://www.writethedocs.org/) or the [*IndieWeb community*](https://indieweb.org/discuss).
 [^2]: For example, [32-Bit Cafe](https://32bit.cafe) or the [*IndieWeb community*](https://indieweb.org/discuss).
