@@ -14,11 +14,11 @@ This guide is intended for existing members of WWC who may wish to edit this web
 
 An [FAQ section](#faq) follows that may be of help should you run into trouble. 
 
-This website is maintained manually and may require a bit of technical effort to contribute to or update. Our community organisers are more than happy to help get any information you may need onto this website, especially with posting notices. Please email either [James G.](mailto:readers@jamesg.blog) or [V.H. Belvadi](mailto:hello@vhbelvadi.com) with your idea or request and we will get back to you.
+This website is maintained manually and may require a bit of technical effort to contribute to or update. Our community organisers are more than happy to help get any information you may need onto this website, especially with posting notices. Please email either [James G.](mailto:readers@jamesg.blog) or [V.H. Belvadi](mailto:wwc@vhbelvadi.com) with your idea or request and we will get back to you.
 
 # Prerequisites
 
-A basic knowledge of git, or at least navigating around Github, is expected. If you do not believe you can continue with this, please feel free to send your contributions, or editing requests [via email](mailto:hello@vhbelvadi.com). While we cannot promise to update the website right away, we will try our best to do so as quickly as possible. However, please continue to read this guide as it will tell you what sort of document you need to send our way.
+A basic knowledge of git, or at least navigating around Github, is expected. If you do not believe you can continue with this, please feel free to send your contributions, or editing requests [via email](mailto:wwc@vhbelvadi.com). While we cannot promise to update the website right away, we will try our best to do so as quickly as possible. However, please continue to read this guide as it will tell you what sort of document you need to send our way.
 
 We use Hugo to run this website and therefore all contributions should be in markdown with `yaml` frontmatter. While some knowledge of Hugo can help if you run into trouble, you do *not* need to know Hugo to make contributions. You do, however, need to know Hugo (and Tailwind) to propose structural or functional updates to this website.
 
@@ -65,7 +65,7 @@ Type the main content of your notice after the `---` at the end of the front mat
 
 If you used Git and Hugo, simply submit a pull request to publish your notice. Frequent contributors may request to be added to the repo to bypass this step (we are a community after all).
 
-If you downloaded the file above, simply e-mail the file to [James G](mailto:readers@jamesg.blog) or [V.H. Belvadi](mailto:hello@vhbelvadi.com) and we will publish it for you. However, we cannot promise to publish it within tight deadlines.
+If you downloaded the file above, simply e-mail the file to [James G](mailto:readers@jamesg.blog) or [V.H. Belvadi](mailto:wwc@vhbelvadi.com) and we will publish it for you. However, we cannot promise to publish it within tight deadlines.
 
 ***
 
@@ -111,7 +111,7 @@ Type the main content of your article after the `---` at the end of the front ma
 
 If you used Git and Hugo, simply submit a pull request to submit your article.
 
-If you downloaded the file above, simply e-mail the file to [James G](mailto:readers@jamesg.blog) or [V.H. Belvadi](mailto:hello@vhbelvadi.com) and we will line it up for publication.
+If you downloaded the file above, simply e-mail the file to [James G](mailto:readers@jamesg.blog) or [V.H. Belvadi](mailto:wwc@vhbelvadi.com) and we will line it up for publication.
 
 All articles submitted will be published together as part of an upcoming issue of *Anthologies*. Articles will not be published independently or immediately upon submission. To help with this, please ensure your `draft` status is set to `true`.
 
@@ -174,7 +174,7 @@ Do not type anything else in this file. Typing in what is traditionally the ‘c
 
 If you used Git and Hugo, simply submit a pull request to publish your author page. Frequent contributors may request to be added to the repo to bypass this step (we are a community after all).
 
-If you downloaded the file above, simply e-mail the file to [James G](mailto:readers@jamesg.blog) or [V.H. Belvadi](mailto:hello@vhbelvadi.com) and we will publish it for you. However, we cannot promise to publish it within tight deadlines.
+If you downloaded the file above, simply e-mail the file to [James G](mailto:readers@jamesg.blog) or [V.H. Belvadi](mailto:wwc@vhbelvadi.com) and we will publish it for you. However, we cannot promise to publish it within tight deadlines.
 
 ***
 
@@ -182,7 +182,7 @@ If you downloaded the file above, simply e-mail the file to [James G](mailto:rea
 
 Unfortunately, you will need to be familiar with git for this. Please make your changes to [this website’s repo](https://github.com/vhbelvadi/webwriterscollective.com) and submit a pull request.
 
-However, we appreciate that you might spot an error or wish to suggest improvements and either might not know Git or might not want to spend time making the fixes or improvements yourself. In such cases, please do not hesitate to [write to us](mailto:hello@vhbelvadi.com) directly.
+However, we appreciate that you might spot an error or wish to suggest improvements and either might not know Git or might not want to spend time making the fixes or improvements yourself. In such cases, please do not hesitate to [write to us](mailto:wwc@vhbelvadi.com) directly.
 
 ***
 
@@ -252,4 +252,4 @@ You might notice the `tags` field in the front matter of notices and articles, b
 
 ## I have a question not answered here (or an idea)
 
-Please [get in touch](mailto:hello@vhbelvadi.com) and we will help you (or appreciate your idea).
+Please [get in touch](mailto:wwc@vhbelvadi.com) and we will help you (or appreciate your idea).
