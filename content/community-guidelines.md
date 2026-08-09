@@ -1,14 +1,12 @@
 ---
-title: "Community guidelines"
-subtitle: "Code of conduct"
+title: "Code of conduct"
+subtitle: ""
 date: 2026-07-17T20:25:21+01:00
 type: page
 draft: false
 ---
 
-
-
-We do not have a separate code of conduct for WWC. Instead we operate under the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct). The codes of conduct listed on this page are therefore addenda to the IndieWeb Code of Conduct, and like the IndieWeb Code of Conduct this is a living document. We encourage our members to propose additions and modifications by getting in touch with one of [our organisers](/organisers).
+We do not have a separate code of conduct for the Web Writers Collective (WWC). Instead we operate under the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct). The codes of conduct listed on this page are therefore addenda to the IndieWeb Code of Conduct, and like the IndieWeb Code of Conduct this is a living document. We encourage our members to propose additions and modifications by getting in touch with one of [our organisers](/organisers).
 
 ***Reporting violations*** If you would like to raise a potential violation of the code of conduct, please get in touch with one of [our organisers](/organisers) or reach out to a moderator on [our forum](/forum). Anyone found in violation of our code of conduct will be removed from the collective. However, not all reports will result in removal, and all reports must go through our moderators and/or organisers. For more details see [§7](#sec-7).
 
@@ -22,7 +20,7 @@ WWC defines ‘privacy’ in terms of the collective rather than the individual.
 
 Privacy is therefore defined relative to sharing with the public internet or non-members. An expectation of privacy means upholding confidentiality amongst all members of WWC away from the general public and not between individual members of the collective.
 
-We request any members leaving the collective to please continue to uphold the confidentiality of discussions had while within WWC spaces.
+All individuals whose membership in the collective has ended, whether voluntarily or otherwise, are required to continue upholding the confidentiality of discussions that took place while within WWC spaces indefinitely.
 
 #### 1.2.
 
@@ -52,7 +50,7 @@ We request any members leaving the collective to please continue to uphold the c
 
 #### 1.8.
 
-Publicly sharing anything that was originally discussed in the WWC Signal chat or on areas of our forum marked *Members-Only* will be treated as a violation of our community guidelines.
+Publicly sharing anything that was originally discussed in the WWC Signal chat or on areas of our forum marked *Members-Only* will be treated as a violation of our code of conduct. Refer to 7.9. for possible outcomes.
 
 # 2. Promotion
 
@@ -80,7 +78,7 @@ Publicly sharing anything that was originally discussed in the WWC Signal chat o
 
 #### 3.3.
 
- In order to foster a strong sense of community we offer spaces where our members can have discussions on topics not directly related to WWC, such as on our forum. Please feel free to use those spaces especially if you prefer not to join another community for that reason alone.
+ In order to foster a strong sense of community we offer spaces on our forum where our members can have discussions on topics not directly related to WWC. Please feel free to use those spaces especially if you prefer not to join another community for that reason alone.
 
 # 4. NSFW content and legality
 
@@ -110,9 +108,9 @@ Publicly sharing anything that was originally discussed in the WWC Signal chat o
 
 #### 4.7.
 
- In case of content that is not prohibited by this community, where such content is nevertheless potentially troubling or may be perceived as NSFW, please consider using appropriate content warnings (e.g. sensitive topics or if you run a blog on erotica etc.). However, not using content warnings does not amount to a violation of this code of conduct.
+ In case of content that is not prohibited by this community, where such content is nevertheless potentially troubling or may be perceived as NSFW, please consider using appropriate content warnings (e.g. sensitive topics, erotica etc.). However, not using content warnings does not amount to a violation of this code of conduct.
 
- #### 4.8
+ #### 4.8.
 
  Discussion of abuse and self-harm are strictly prohibited in accordance with the [UK Online Safety Act](https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer).
 
@@ -198,7 +196,7 @@ Publicly sharing anything that was originally discussed in the WWC Signal chat o
 
 ***
 
-***Credits*** Our community guidelines draw on the excellent work already present in the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct), the 32-Bit Cafe [code of conduct](https://32bit.cafe/about/codeofconduct.php) and [forum rules](https://discourse.32bit.cafe/t/read-first-forum-rules/16), the Mozilla [Community Participation Guidelines](https://www.mozilla.org/en-GB/about/governance/policies/participation/) and the [Contributor Covenant](https://www.contributor-covenant.org/).
+***Credits*** Our code of conduct draw on the excellent work already present in the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct), the 32-Bit Cafe [Code of Conduct](https://32bit.cafe/about/codeofconduct.php) and [forum rules](https://discourse.32bit.cafe/t/read-first-forum-rules/16), the Mozilla [Community Participation Guidelines](https://www.mozilla.org/en-GB/about/governance/policies/participation/) and the [Contributor Covenant](https://www.contributor-covenant.org/).
 
 ***
 
