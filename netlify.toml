@@ -1,5 +1,4 @@
 [[headers]]
-  for = "/*"
-
+  for = "/fonts/*"
   [headers.values]
     Access-Control-Allow-Origin = "https://forum.webwriterscollective.com"
