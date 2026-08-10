@@ -1,6 +1,5 @@
 [[headers]]
-  for = "/fonts/*"
+  for = "/*"
 
   [headers.values]
     Access-Control-Allow-Origin = "https://forum.webwriterscollective.com"
-    X-CORS-Test = "netlify-is-working"
