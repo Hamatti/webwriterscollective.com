@@ -1,10 +1,10 @@
-# webwriterscollective.com
+<img src="./themes/webwriterscollective/static/favicons/favicon-96x96.png" width="36"> 
 
-Website for the Web Writers’ Collective: <https://webwriterscollective.com>
+# Web Writers’ Collective
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a4daf88e-7a3a-4123-9388-76bb85658863/deploy-status)](https://app.netlify.com/projects/webwriterscollective/deploys)
 
-## About WWC
+### Visit the Web Writers’ Collective at [WebWritersCollective.com](https://webwriterscollective.com)
 
 The Web Writers’ Collective (WWC) is an invite-only community for people who write on the web, organised over Signal, with a companion forum on Discourse for discussion and a community zine called *Anthologies*.
 
@@ -18,7 +18,7 @@ Useful pages:
 - **Noticeboard**: <https://webwriterscollective.com/noticeboard>
 - **Forum**: <https://webwriterscollective.com/forum>
 
-Send an email to [readers@jamesg.blog](mailto:readers@jamesg.blog) to request an invite.
+Send an email to [contact@webwriterscollective.com](mailto:contact@webwriterscollective.com) to request an invite.
 
 ## Tech stack
 
@@ -50,6 +50,6 @@ To build a production CSS bundle: `npm run prod`. Hugo output is written to `/pu
 - `archetypes/`: Hugo content templates for new content
 - `hugo.toml`: site-level Hugo configuration
 
-## Notes for admins
+## Notes for organisers
 
 1. **When a new theme has been decided for *Anthologies*** and once a notice of the new theme has been published, please update `/content/anthologies/_index.md` with a relative link to the notice against the `issue_notice` field. All this does is update a link to the theme on the contribution guidelines but it may do more in future.
