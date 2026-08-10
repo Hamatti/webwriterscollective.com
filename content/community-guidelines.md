@@ -8,9 +8,11 @@ draft: false
 
 We do not have a separate code of conduct for the Web Writers Collective (WWC). Instead we operate under the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct). The codes of conduct listed on this page are therefore addenda to the IndieWeb Code of Conduct, and like the IndieWeb Code of Conduct this is a living document. We encourage our members to propose additions and modifications by getting in touch with one of [our organisers](/organisers).
 
-***Reporting violations*** If you would like to raise a potential violation of the code of conduct, please get in touch with one of [our organisers](/organisers) or reach out to a moderator on [our forum](/forum). Anyone found in violation of our code of conduct will be removed from the collective. However, not all reports will result in removal, and all reports must go through our moderators and/or organisers. For more details see [§7](#sec-7).
+***Reporting violations*** If you would like to raise a potential violation of the code of conduct, please get in touch with one of [our organisers](/organisers) or reach out to a moderator on [our forum](/forum). Anyone found in violation of our code of conduct will be removed from the collective. However, not all reports will result in removal, and all reports must go through our organisers. For more details see [§8](#sec-8).
 
-***Scope*** Our code of conduct extends to this website, to our Signal group and to our forum. It also applies to any projects that originate in WWC spaces in any capacity, as well as wherever an expectation may reasonably exist of the involvement of WWC itself or of one of its organisers and any unofficial spaces where there is a reasonable expectation of association with WWC. Collectively, we call these WWC spaces, and they may be either online or offline or both.
+***Scope*** Our code of conduct extends to this website, to our Signal group and to our forum. It also applies to any projects that originate in WWC spaces in any capacity, as well as wherever an expectation may reasonably exist of the involvement of WWC itself or of one of its organisers and any unofficial spaces where there is a reasonable expectation of association with WWC. Collectively, we call these WWC spaces, and they may be either online or offline or both. 
+
+***Organisers*** While we prefer to use the umbrella term ‘organisers’ for volunteers who have taken on the responsibility of building and running WWC and its spaces on a daily basis, the term may also refer to specialist roles that these organisers fulfil, which may normally bear different labels; e.g., on our forums our ‘organisers’ are ‘moderators’, while in the context of *Anthologies* they are ‘editors’.
 
 # 1. Confidentiality and privacy {#sec-1}
 
@@ -78,7 +80,7 @@ Publicly sharing anything that was originally discussed in the WWC Signal chat o
 
 #### 3.3.
 
- In order to foster a strong sense of community we offer spaces on our forum where our members can have discussions on topics not directly related to WWC. Please feel free to use those spaces especially if you prefer not to join another community for that reason alone.
+Although discussions in WWC are focussed on writing and adjacent topics, we recognise that off-topic discussions amongst our members may nevertheless foster a strong sense of community. We request that such off-topic discussions be restricted to *The Lounge* (for discussions of a public nature) or the *Writers’ Cafe* (for discussions between WWC members only).
 
 # 4. NSFW content and legality
 
@@ -132,57 +134,84 @@ Publicly sharing anything that was originally discussed in the WWC Signal chat o
 
  We all make mistakes. At WWC we expect responsiveness over perfection. If someone brings to your attention potential issues in your behaviour, please consider it in earnest. If someone requests you to stop a behaviour or conversation that is troubling to them, please do so.
 
-# 6. Community culture
+# 6. Discussing mental health {#sec-6}
+
 
 #### 6.1.
 
- Disagree respectfully. Debate ideas, not people. Do not assume ill intent; ask questions first. Where people have already stated disagreement, demonstrating your disagreement rarely adds to the discussion; steer towards solutions or prompt helpful discussions instead. Not all disagreements will be resolved.
+Discussions on WWC are not a replacement for therapy, support groups, mental-health organisations etc. and must not be construed as expert advice.
 
 #### 6.2.
 
- When offering criticism, do so constructively with the aim of collectively making improvements and not merely demonstrating your own expertise.
+Mental health discussions can potentially become overly complex. WWC organisers are not equipped to moderate discussions around mental health nor do they have the training and experience required to help members manage mental health concerns through WWC.
 
 #### 6.3.
 
- If you have made a mistake, own it gracefully; acknowledge mistakes, apologise where appropriate and move on.
+ We request that you avoid discussing details of your own mental health or that of others on WWC, or dispensing advice on mental health, or using the community to vent excessively or seek emotional support. Discussions pertaining to mental health may be closed at any organiser’s discretion.
 
-#### 6.4.
+ #### 6.4.
 
- WWC is not a competitive community. We aim to be a safe space for everyone, at all stages of expertise: be patient with newcomers and people publishing or setting up a website for the first time, or generally with anyone asking beginner questions. Celebrate others’ successes and encourage participation rather than competition.
+ Discussing mental health is not categorically prohibited. Members are free to link to personal content when it relates to a discussion, with appropriate content warning(s). Members are also allowed to discuss relevant issues including neurodivergence/disorders or factual and/or clinical discussions of general mental health, so long as these topics are handled responsibly.
 
-# 7. Moderation and reporting violations {#sec-7}
+#### 6.5.
+
+Members choosing to discuss topics around mental health do so with the explicit understanding that neither privacy nor confidentiality may be guaranteed in any WWC space.
+
+#### 6.6.
+
+Repeated violation of any term in [§6](#sec-6) will result in permanent removal from WWC.
+
+# 7. Community culture
 
 #### 7.1.
 
- Report any concern promptly to one of [our organisers](/organisers) rather than escalating arguments publicly. Report concerns about an organiser to a different organiser. You do not have to be the victim of a violation to report it and reporting does not guarantee that action will be taken against a member.
+ Disagree respectfully. Debate ideas, not people. Do not assume ill intent; ask questions first. Where people have already stated disagreement, demonstrating your disagreement rarely adds to the discussion; steer towards solutions or prompt helpful discussions instead. Not all disagreements will be resolved.
 
 #### 7.2.
 
- Reports will be handled confidentially as far as possible. This confidentiality does not extend between organisers as organisers may discuss reports collaboratively as they work towards a decision.
+ When offering criticism, do so constructively with the aim of collectively making improvements and not merely demonstrating your own expertise.
 
 #### 7.3.
 
- We extend complete protection to reporters of violations. Retaliation against people who report concerns will amount to a violation of our code of conduct.
+ If you have made a mistake, own it gracefully; acknowledge mistakes, apologise where appropriate and move on.
 
 #### 7.4.
 
- In some cases, especially on our forum, moderators may intervene before a formal breach occurs by, among other things, requesting members to change the course of their discussion or take a break. Such ‘soft moderation’ may occur as part of the daily running of WWC and will not go on record. It will also not amount to a warning for members. We do this to prevent constantly escalating incidents to a formal breach of our code of conduct, especially since we aim to be a largely self-organised, self-monitored community.
+ WWC is not a competitive community. We aim to be a safe space for everyone, at all stages of expertise: be patient with newcomers and people publishing or setting up a website for the first time, or generally with anyone asking beginner questions. Celebrate others’ successes and encourage participation rather than competition.
 
-#### 7.5.
+# 8. Moderation and reporting violations {#sec-8}
 
- In case no moderators are available during breach of our code of conduct, and where events cannot be resolved amicably between members, we request that such events be brought to the attention of one of [our organisers](/organisers).
+#### 8.1.
 
-#### 7.6.
+ Report any concern promptly to one of [our organisers](/organisers) rather than escalating arguments publicly. Report concerns about an organiser to a different organiser. You do not have to be the victim of a violation to report it and reporting does not guarantee that action will be taken against a member.
 
- While moderators or organisers may respond to situations or choose to review incidents of their own cognisance, there will be no expectation that moderators or organisers will track all incidents and behaviours unless those are reported to them.
+#### 8.2.
 
-#### 7.7.
+ Reports will be handled confidentially as far as possible. This confidentiality does not extend between organisers as organisers may discuss reports collaboratively as they work towards a decision.
 
- On our forum, moderators’ decisions are final unless a majority of our organisers choose to review a decision. Members may request organisers to re-consider a moderator’s decision by getting in touch with one of [our organisers](/organisers).
+#### 8.3.
 
-#### 7.8.
+ We extend complete protection to reporters of violations. Retaliation against people who report concerns will amount to a violation of our code of conduct.
 
- Only the following qualify as reporting to moderators/organisers:
+#### 8.4.
+
+ In some cases, especially on our forum, organisers may intervene before a formal breach occurs by, among other things, requesting members to change the course of their discussion or take a break. Such ‘soft moderation’ may occur as part of the daily running of WWC and will not go on record. It will also not amount to a warning for members. We do this to prevent constantly escalating incidents to a formal breach of our code of conduct, especially since we aim to be a largely self-organised, self-monitored community.
+
+#### 8.5.
+
+ In case no organisers are available during breach of our code of conduct, and where events cannot be resolved amicably between members, we request that such events be brought to the attention of one of [our organisers](/organisers).
+
+#### 8.6.
+
+ While organisers or organisers may respond to situations or choose to review incidents of their own cognisance, there will be no expectation that organisers or organisers will track all incidents and behaviours unless those are reported to them.
+
+#### 8.7.
+
+ On our forum, organisers’ decisions are final unless a majority of our organisers choose to review a decision. Members may request organisers to re-consider a moderator’s decision by getting in touch with one of [our organisers](/organisers).
+
+#### 8.8.
+
+ Only the following qualify as reporting to organisers:
  - sending them an email
  - using a contact form on their website (if explicitly preferred)
  - direct messaging on Signal
@@ -190,7 +219,7 @@ Publicly sharing anything that was originally discussed in the WWC Signal chat o
   
  Please consult [our organisers page](/organisers) for up-to-date information on what an organiser’s preferred means of contact are. Please do not ‘report’ anything publicly on social media – these may amount to a violation of [§1](#sec-1). Forum posts and rants on WWC spaces do not amount to a report.
 
-#### 7.9.
+#### 8.9.
 
  The following are possible outcomes of a moderation report from most lenient to most punitive: no action is taken, members are reminded, members may be warned, members may be temporarily ‘silenced’ (read-only access), members may be temporarily suspended or members may be permanently removed. In addition, content associated with a moderation report may or may not be removed.
 
