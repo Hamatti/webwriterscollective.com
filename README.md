@@ -53,4 +53,20 @@ To build a production CSS bundle: `npm run prod`. Hugo output is written to `/pu
 ## Notes for organisers
 
 1. **When a new theme has been decided for *Anthologies*** and once a notice of the new theme has been published, please update `/content/anthologies/_index.md` with a relative link to the notice against the `issue_notice` field. All this does is update a link to the theme on the contribution guidelines but it may do more in future.
-2. **To update your organiser box** use the {{ organiser <params> }} shortcode, which takes several parameters specified `"within double inverted commas"`. Use `name`, `pronouns`, `website`, `email`, `contact_page` for a link to your own website’s contact page, `signal_link` if you wish to provide a direct link to your Signal profile, `signal_handle` if you want to just share your handle. For any arbitrary links, e.g. social media profiles, other websites, use `other_label_1` for a label, `other_link_1` for its link and `other_value_1` for its ink text. You can replace `1` with `2` and `3` for a maximum of three arbitrary links.
+2. **To update your organiser box** use the `{{ organiser <params> }}` shortcode. It takes several parameters specified `foo="bar"` and *in any order*.
+
+| Parameter     | Notes                             | Compulsory? |
+|---------------|-----------------------------------|-------------|
+| name          | Or pseudonym                      | Yes         |
+| website       | Include `https://`                | Yes         |
+| forum_handle  | case-sensitive, leave out the `@` | Yes         |
+| pronouns      |                                   | No          |
+| email         |                                   | No          |
+| contact_page  |                                   | No          |
+| signal_link   |                                   | No          |
+| signal_handle |                                   | No          |
+| other_label_1 | e.g. Bluesky                      | No          |
+| other_link_1  | e.g. social media profile link    | No          |
+| other_value_1 | Optional, else shows Visit ↗      | No          |
+
+Additionally, you can have `other_label_2` and `other_label_3` (a maximum of three) along with their links and/or values.
