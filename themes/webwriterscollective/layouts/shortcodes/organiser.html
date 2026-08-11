@@ -3,6 +3,8 @@
     {{ .Get "name" }}
     {{ .Get "pronouns" }}
 
+    {{ .Get "forum_handle" }}
+
     {{ .Get "website" }}
     {{ .Get "email" }}
     {{ .Get "contact_page" }}
@@ -89,6 +91,36 @@
                         {{ if $other_link_1 }}</a>{{ end }}
                     </div>
             </div>
+        {{ end }}
+
+        <!-- OTHER 2 -->
+        {{ if and $other_label_2 ( or $other_value_2 $other_link_2 ) }}
+            <div class="flex flex-row gap-0.5 w-full h-1.75 items-center justify-start">
+                    <div class="basis-1/4 all-caps text-sm mt-0.25 font-medium">{{ $other_label_2 }}</div>
+                    <div class="basis-3/4">
+                        {{ if $other_link_2 }}<a href="{{ $other_link_1 }}">{{ end }}
+                            {{ if $other_value_2 }}{{ $other_value_2 }}{{ else }}Visit &nearr;{{ end }}
+                        {{ if $other_link_2 }}</a>{{ end }}
+                    </div>
+            </div>
+        {{ end }}
+
+        <!-- OTHER 3 -->
+        {{ if and $other_label_3 ( or $other_value_3 $other_link_3 ) }}
+            <div class="flex flex-row gap-0.5 w-full h-1.75 items-center justify-start">
+                    <div class="basis-1/4 all-caps text-sm mt-0.25 font-medium">{{ $other_label_3 }}</div>
+                    <div class="basis-3/4">
+                        {{ if $other_link_3 }}<a href="{{ $other_link_1 }}">{{ end }}
+                            {{ if $other_value_3 }}{{ $other_value_3 }}{{ else }}Visit &nearr;{{ end }}
+                        {{ if $other_link_3 }}</a>{{ end }}
+                    </div>
+            </div>
+        {{ end }}
+
+        <!-- FORUM LINK -->
+        {{ $forumHandle := .Get "forum_handle" }}
+        {{ with $forumHandle }}
+            <a href="https://forum.webwriterscollective.com/new-message?username={{ . }}" target="_blank" class="mt-1 px-1 all-caps text-sm py-0.5 font-semibold decoration-0 border-2 border-foreground hover:text-white! hover:border-accent hover:bg-accent transition-fade">Message on the forum</a>
         {{ end }}
 
     </div>

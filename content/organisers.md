@@ -11,17 +11,17 @@ The collective was originally brought together by James, who also serves as admi
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-1.5 w-full my-2 items-start">
     <!-- James -->
-    {{< organiser name="James G." pronouns="he/him" website="https://jamesg.blog" email="wwc@jamesg.blog" signal_handle="@capjamesg.01">}}
+    {{< organiser name="James G." pronouns="he/him" website="https://jamesg.blog" email="wwc@jamesg.blog" signal_handle="@capjamesg.01" forum_handle="capjamesg">}}
     <!-- Brennan -->
-    {{< organiser name="Brennan Kenneth Brown" website="https://brennan.day" email="mail@brennanbrown.ca" signal_handle="@brennan.04" signal_link="https://signal.me/#eu/CWQvwj8f-ksHCpDkuPE_EizbOXDmH5-eBtKFMNB3-R2r-gG3oY5JzY759Yl7q5wV" other_label_1="Fedi" other_value_1="@brennan@social.lol">}}
+    {{< organiser name="Brennan Kenneth Brown" website="https://brennan.day" email="mail@brennanbrown.ca" signal_handle="@brennan.04" signal_link="https://signal.me/#eu/CWQvwj8f-ksHCpDkuPE_EizbOXDmH5-eBtKFMNB3-R2r-gG3oY5JzY759Yl7q5wV" other_label_1="Fedi" other_value_1="@brennan@social.lol" forum_handle="brennanbrown">}}
     <!-- Joel -->
-    {{< organiser name="Joel" website="httos://joelchrono.xyz" email="me@joelchrono.xyz" >}}
+    {{< organiser name="Joel" website="httos://joelchrono.xyz" email="me@joelchrono.xyz" forum_handle="joelchrono" >}}
     <!-- Juhis -->
-    {{< organiser name="Juhis" website="https://hamatti.org" email="contact@hamatti.org" pronouns="he/him">}}
+    {{< organiser name="Juhis" website="https://hamatti.org" email="contact@hamatti.org" pronouns="he/him" forum_handle="juhis">}}
     <!-- Naty -->
-    {{< organiser name="Naty S" website="https://burgeonlab.com/" contact_page="https://burgeonlab.com/contact/" pronouns="she/her" other_label_1="Mastodon" other_link_1="https://fosstodon.org/@eclecticpassions">}}
+    {{< organiser name="Naty S" website="https://burgeonlab.com/" contact_page="https://burgeonlab.com/contact/" pronouns="she/her" other_label_1="Mastodon" other_link_1="https://fosstodon.org/@eclecticpassions" forum_handle="naty">}}
     <!-- V.H. Belvadi -->
-    {{< organiser name="V.H. Belvadi" pronouns="he/him" website="https://vhbelvadi.com" email="wwc@vhbelvadi.com" signal_link="https://signal.me/#eu/RBqtaVYC8Kkdm586KMc9Js_6GJJ1_p5rWzueJqqGjmFwKn8dEBlE1Ycsnq8_5ulx" other_label_1="Bluesky" other_link_1="https://bsky.app/profile/vhbelvadi.com" >}}
+    {{< organiser name="V.H. Belvadi" pronouns="he/him" website="https://vhbelvadi.com" email="wwc@vhbelvadi.com" signal_link="https://signal.me/#eu/RBqtaVYC8Kkdm586KMc9Js_6GJJ1_p5rWzueJqqGjmFwKn8dEBlE1Ycsnq8_5ulx" other_label_1="Bluesky" other_link_1="https://bsky.app/profile/vhbelvadi.com" forum_handle="vhbelvadi" >}}
 </div>
 
 # Volunteer
