@@ -35,10 +35,19 @@ Requirements: [Hugo](https://gohugo.io/installation/) (extended not required, mi
 npm install
 
 # compile Tailwind CSS and watch for changes
+# only when editing CSS
 npm run watch
 
 # in a separate terminal, run the Hugo dev server
 hugo server
+
+# to enable viewing drafts, run instead
+# useful when addition new pages, notices etc.
+hugo server -D
+
+# finally, compile CSS for production
+# only when editing CSS
+npm run prod
 ```
 
 To build a production CSS bundle: `npm run prod`. Hugo output is written to `/public` and is git-ignored.
