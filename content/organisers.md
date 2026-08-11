@@ -20,6 +20,8 @@ The collective was originally brought together by James, who also serves as admi
     {{< organiser name="Juhis" website="https://hamatti.org" email="contact@hamatti.org" pronouns="he/him" forum_handle="juhis">}}
     <!-- Naty -->
     {{< organiser name="Naty S" website="https://burgeonlab.com/" contact_page="https://burgeonlab.com/contact/" pronouns="she/her" other_label_1="Mastodon" other_link_1="https://fosstodon.org/@eclecticpassions" forum_handle="naty">}}
+    <!-- Sorbier -->
+    {{< organiser name="sorbier" pronouns="she/her" website="https://sorbier.neocities.org" email="lasorbier@pm.me" forum_handle="sorbier" >}}
     <!-- V.H. Belvadi -->
     {{< organiser name="V.H. Belvadi" pronouns="he/him" website="https://vhbelvadi.com" email="wwc@vhbelvadi.com" signal_link="https://signal.me/#eu/RBqtaVYC8Kkdm586KMc9Js_6GJJ1_p5rWzueJqqGjmFwKn8dEBlE1Ycsnq8_5ulx" other_label_1="Bluesky" other_link_1="https://bsky.app/profile/vhbelvadi.com" forum_handle="vhbelvadi" >}}
 </div>
