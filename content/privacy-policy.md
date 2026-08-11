@@ -1,11 +1,10 @@
 ---
-title: "Web Writers Collective Privacy Policy"
+title: "Privacy Policy"
+subtitle: "This privacy notice tells you what to expect us to do with your personal information."
 date: 2026-08-11T10:11:00+01:00
 type: page
 draft: false
 ---
-
-This privacy notice tells you what to expect us to do with your personal information.
 
 ·       [Contact details](#contact)
 
