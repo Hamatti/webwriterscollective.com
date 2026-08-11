@@ -15,7 +15,7 @@ The collective was originally brought together by James, who also serves as admi
     <!-- Brennan -->
     {{< organiser name="Brennan Kenneth Brown" website="https://brennan.day" email="mail@brennanbrown.ca" signal_handle="@brennan.04" signal_link="https://signal.me/#eu/CWQvwj8f-ksHCpDkuPE_EizbOXDmH5-eBtKFMNB3-R2r-gG3oY5JzY759Yl7q5wV" other_label_1="Fedi" other_value_1="@brennan@social.lol">}}
     <!-- Joel -->
-    {{< organiser name="Joel" website="httos://joelchrono.xyz" email="me@joelchrono.xyz" >}}
+    {{< organiser name="Joel" website="https://joelchrono.xyz" email="me@joelchrono.xyz" >}}
     <!-- Juhis -->
     {{< organiser name="Juhis" website="https://hamatti.org" email="contact@hamatti.org" pronouns="he/him">}}
     <!-- Naty -->
@@ -26,6 +26,6 @@ The collective was originally brought together by James, who also serves as admi
 
 # Volunteer
 
-Any member of WWC can volunteer to become an organiser and help us run the collective. We require no time commitment from you and only ask that you contribue as and when you can.
+Any member of WWC can volunteer to become an organiser and help us run the collective. We require no time commitment from you and only ask that you contribute as and when you can.
 
 If you wish to become an organiser, please get in touch with one of our existing organisers and express your interest. We will get back to you when we are looking for more volunteers.
