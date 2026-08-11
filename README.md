@@ -53,7 +53,7 @@ To build a production CSS bundle: `npm run prod`. Hugo output is written to `/pu
 ## Notes for organisers
 
 1. **When a new theme has been decided for *Anthologies*** and once a notice of the new theme has been published, please update `/content/anthologies/_index.md` with a relative link to the notice against the `issue_notice` field. All this does is update a link to the theme on the contribution guidelines but it may do more in future.
-2. **To update your organiser box** use the `{{ organiser <params> }}` shortcode. It takes several parameters specified `parameter="value"` and *in any order*.
+2. **To update your organiser box** use the `{{< organiser [parameters] >}}` shortcode. It takes several parameters specified as `parameter="value"` *in any order*.
 
 | Parameter     | Notes                             | Compulsory? |
 |---------------|-----------------------------------|-------------|
