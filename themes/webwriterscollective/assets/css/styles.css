@@ -244,6 +244,32 @@ strong em, em strong {
     @apply text-accent not-italic! mr-0.5;
 }
 
+/* TABLE OF CONTENTS */
+#TableOfContents {
+
+    @apply mt-2 mb-1;
+    font-feature-settings: var(--sans-features), "onum" 0, "tnum" 1;
+
+    & ul {
+
+        & > li {
+            @apply py-0.5 border-l border-accent ml-[3px] pl-1.5;
+
+            &:before {
+                content: "—";
+                @apply text-accent -ml-1.5 mr-0.5;
+            }
+        }
+
+    }
+
+    & > ul:before {
+        content: "Contents";
+        @apply block all-caps text-foreground/50 font-semibold text-sm mb-0.25!;
+    }
+
+}
+
 /* ISSUE CARD */
 .issue-card {
 
@@ -296,7 +322,7 @@ strong em, em strong {
 }
 
 /* SPECIAL ONE-OFF STYLES */
-.community-guidelines {
+.community-guidelines, .privacy-policy {
     & .prose {
         & :is(h1,h2,h3,h4,h5,h6) {
             font-feature-settings: var(--sans-features), "onum" 0, "tnum" 1 !important;
