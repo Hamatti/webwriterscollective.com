@@ -2,7 +2,7 @@
 
 <article class="flex flex-col xl:flex-row items-stretch justify-between gap-6">
     <header class="basis-[25%]">
-        <div class="sticky top-2">
+        <div class="lg:sticky top-2">
             <h1>{{ .Title }}</h1>
             <h2>{{ .Params.subtitle }}</h2>
             {{ if isset .Params "toc" }}
@@ -31,34 +31,10 @@
           </p>
 
           <p>
-            <label>Why would you like to join WWC?<span class="required">•</span><span class="explanation">We take the privacy of our members seriously and like to know whom we’re accepting as members. Please tell us in at least 50 words.</span>
+            <label>Why would you like to join WWC?<span class="required">•</span><span class="explanation">Please tell us in a few sentences. We value the time and effort our members put into keeping our collective meaningfully active. We therefore like to know whom we’re accepting as new members.</span>
               <textarea name="why" id="why" rows="5" required></textarea>
-              <div id="why-error-msg" class="error-msg"></div>
+              <!--<div id="why-error-msg" class="error-msg"></div>-->
             </label>
-
-            <script>
-            const why = document.getElementById('why');
-            const error = document.getElementById('why-error-msg');
-
-            function checkWordCount() {
-              const words = why.value.trim().split(/\s+/).filter(Boolean);
-
-              if (words.length < 50) {
-                error.textContent = `${words.length} words`;
-                error.classList.remove('error-success');
-                error.classList.add('error-failure');
-                why.setCustomValidity('Please tell us in at least 50 words.');
-              } else {
-                error.textContent = `${words.length} words`;
-                error.classList.remove('error-failure');
-                error.classList.add('error-success');
-                why.setCustomValidity('');
-              }
-            }
-
-            why.addEventListener('input', checkWordCount);
-            </script>
-
           </p>
 
           <p>
