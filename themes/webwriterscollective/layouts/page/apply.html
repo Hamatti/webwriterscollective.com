@@ -9,6 +9,7 @@
                 {{ .TableOfContents }}
             {{ end }}
             {{ with .Parent.Params.issue_notice }}<a href="{{ . }}" class="button secondary">Looking for our current theme?</a>{{ end }}
+            {{ if eq .RelPermalink "/apply/" }}<small><em>Fields marked <span class="text-accent text-[1.5em]">•</span> are required.</em></small>{{ end }}
         </div>
     </header>
     <div class="basis-[50%] prose w-(--article-width) max-w-full">
@@ -18,22 +19,22 @@
           </p>
 
           <p>
-            <label>Name<span class="required">Required. This can be whatever you’d like us to call you, including a pseudonym.</span> <input type="text" name="name" required /></label>
+            <label>Name<span class="required">•</span><span class="explanation">This can be whatever you’d like us to call you, including a pseudonym.</span> <input type="text" name="name" required /></label>
           </p>
 
           <p>
-            <label>Email<span class="required">Required. We need this contact you with our decision.</span> <input type="email" name="email" required /></label>
+            <label>Email<span class="required">•</span><span class="explanation">We need this contact you with our decision.</span> <input type="email" name="email" required /></label>
           </p>
 
           <p>
-            <label>Website<span class="required">Required. We would love to see your website and writing to help us make a decision.</span> <input type="url" name="website" required /></label>
+            <label>Website<span class="required">•</span><span class="explanation">We would love to see your website and writing to help us make a decision.</span> <input type="url" name="website" required /></label>
           </p>
 
           <p>
-            <label>Why would you like to join WWC?<span class="required">Required. We take the privacy of our members seriously and like to know whom we’re accepting as members. Please tell us in at least 50 words.</span>
+            <label>Why would you like to join WWC?<span class="required">•</span><span class="explanation">We take the privacy of our members seriously and like to know whom we’re accepting as members. Please tell us in at least 50 words.</span>
               <textarea name="why" id="why" rows="5" required></textarea>
+              <div id="why-error-msg" class="error-msg"></div>
             </label>
-            <div id="why-error-msg" class="error-msg"></div>
 
             <script>
             const why = document.getElementById('why');
@@ -61,7 +62,7 @@
           </p>
 
           <p>
-            <label>How did you learn about WWC? <span class="required">Optional. We’re just curious.</span>
+            <label>How did you learn about WWC? <span class="explanation">We’re just curious.</span>
               <input type="text" name="referral" />
             </label>
           </p>
