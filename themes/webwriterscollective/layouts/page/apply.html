@@ -1,55 +1,43 @@
-{{ define "main" }}
+<form name="join-wwc" method="POST" netlify netlify-honeypot="bot-field">
+  <p hidden>
+    <label>Please fill this out: <input name="bot-field"></label>
+  </p>
 
-<article class="flex flex-col xl:flex-row items-stretch justify-between gap-6">
-    <header class="basis-[25%]">
-        <div class="lg:sticky top-2">
-            <h1>{{ .Title }}</h1>
-            <h2>{{ .Params.subtitle }}</h2>
-            {{ if isset .Params "toc" }}
-                {{ .TableOfContents }}
-            {{ end }}
-            {{ with .Parent.Params.issue_notice }}<a href="{{ . }}" class="button secondary">Looking for our current theme?</a>{{ end }}
-            {{ if eq .RelPermalink "/apply/" }}<small><em>Fields marked <span class="text-accent text-[1.5em]">•</span> are required.</em></small>{{ end }}
-        </div>
-    </header>
-    <div class="basis-[50%] prose w-(--article-width) max-w-full">
-        <form name="join-wwc" method="POST" action="/apply-thanks/" netlify netlify-honeypot="bot-field">
-          <p hidden>
-            <label>Don’t fill this out: <input name="bot-field"></label>
-          </p>
+  <p>
+    <label>Name<span class="required">•</span>
+        <span class="explanation">This can be whatever you’d like us to call you, including a pseudonym.</span>
+        <input type="text" name="name" required />
+    </label>
+  </p>
 
-          <p>
-            <label>Name<span class="required">•</span><span class="explanation">This can be whatever you’d like us to call you, including a pseudonym.</span> <input type="text" name="name" required /></label>
-          </p>
+  <p>
+    <label>Email<span class="required">•</span>
+        <span class="explanation">We need this to contact you with our decision.</span>
+        <input type="email" name="email" required />
+    </label>
+  </p>
 
-          <p>
-            <label>Email<span class="required">•</span><span class="explanation">We need this contact you with our decision.</span> <input type="email" name="email" required /></label>
-          </p>
+  <p>
+    <label>Website<span class="required">•</span>
+        <span class="explanation">We would love to see your website and writing to help us make a decision.</span>
+        <input type="url" name="website" required />
+    </label>
+  </p>
 
-          <p>
-            <label>Website<span class="required">•</span><span class="explanation">We would love to see your website and writing to help us make a decision.</span> <input type="url" name="website" required /></label>
-          </p>
+  <p>
+    <label>Why would you like to join WWC?<span class="required">•</span>
+        <span class="explanation">Please tell us in a few sentences. We value the time and effort our members put into keeping our collective meaningfully active. We therefore like to know whom we’re accepting as new members.</span>
+        <textarea name="why" rows="5" required></textarea>
+    </label>
+  </p>
 
-          <p>
-            <label>Why would you like to join WWC?<span class="required">•</span><span class="explanation">Please tell us in a few sentences. We value the time and effort our members put into keeping our collective meaningfully active. We therefore like to know whom we’re accepting as new members.</span>
-              <textarea name="why" id="why" rows="5" required></textarea>
-              <!--<div id="why-error-msg" class="error-msg"></div>-->
-            </label>
-          </p>
+  <p>
+    <label>How did you learn about WWC? <span class="explanation">We’re just curious.</span>
+      <input type="text" name="referral" />
+    </label>
+  </p>
 
-          <p>
-            <label>How did you learn about WWC? <span class="explanation">We’re just curious.</span>
-              <input type="text" name="referral" />
-            </label>
-          </p>
-
-          <p>
-            <button type="submit" class="my-1">Apply for membership</button>
-          </p>
-        </form>
-    </div>
-    <div class="basis-[20%] flex justify-end self-end">
-    </div>
-</article>
-
-{{ end }}
+  <p>
+    <button type="submit" class="my-1">Apply for membership</button>
+  </p>
+</form>
