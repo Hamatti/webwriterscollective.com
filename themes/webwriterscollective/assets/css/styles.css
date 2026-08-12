@@ -321,6 +321,42 @@ strong em, em strong {
     }
 }
 
+/* FORM */
+/* esp. application form */
+form {
+
+    @apply max-w-(--aw) mx-auto;
+
+    & label {
+        @apply font-semibold mb-0.5;
+
+        & .required {
+            @apply text-foreground/65 font-normal text-base block mb-0.5;
+        }
+
+    }
+
+    & input, & textarea {
+        @apply block bg-offset border-2 border-foreground w-full p-0.5 transition-fade mb-1 font-[435];
+
+        &:focus {
+            @apply outline-0 border-accent transition-fade;
+        }
+    }
+
+    & .error-msg {
+        @apply text-sm mb-1 -mt-0.5;
+
+        &.error-success {
+            @apply text-green-600;
+        }
+
+        &.error-failure {
+            @apply text-red-600;
+        }
+    }
+}
+
 /* SPECIAL ONE-OFF STYLES */
 .community-guidelines, .privacy-policy {
     & .prose {

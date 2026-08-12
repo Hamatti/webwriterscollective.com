@@ -1,33 +1,78 @@
-<form name="join-wwc" action="/apply-thanks/" netlify netlify-honeypot="bot-field">
-  <p hidden>
-    <label>Don’t fill this out: <input name="bot-field"></label>
-  </p>
+{{ define "main" }}
 
-  <p>
-    <label>Name <input type="text" name="name" required /></label>
-  </p>
+<article class="flex flex-col xl:flex-row items-stretch justify-between gap-6">
+    <header class="basis-[25%]">
+        <div class="sticky top-2">
+            <h1>{{ .Title }}</h1>
+            <h2>{{ .Params.subtitle }}</h2>
+            {{ if isset .Params "toc" }}
+                {{ .TableOfContents }}
+            {{ end }}
+            {{ with .Parent.Params.issue_notice }}<a href="{{ . }}" class="button secondary">Looking for our current theme?</a>{{ end }}
+        </div>
+    </header>
+    <div class="basis-[50%] prose w-(--article-width) max-w-full">
+        <form name="join-wwc" action="/apply-thanks/" netlify netlify-honeypot="bot-field">
+          <p hidden>
+            <label>Don’t fill this out: <input name="bot-field"></label>
+          </p>
 
-  <p>
-    <label>Email <input type="email" name="email" required /></label>
-  </p>
+          <p>
+            <label>Name<span class="required">Required. This can be whatever you’d like us to call you, including a pseudonym.</span> <input type="text" name="name" required /></label>
+          </p>
 
-  <p>
-    <label>Website <input type="url" name="website" required /></label>
-  </p>
+          <p>
+            <label>Email<span class="required">Required. We need this contact you with our decision.</span> <input type="email" name="email" required /></label>
+          </p>
 
-  <p>
-    <label>Why would you like to join WWC?
-      <textarea name="why" required></textarea>
-    </label>
-  </p>
+          <p>
+            <label>Website<span class="required">Required. We would love to see your website and writing to help us make a decision.</span> <input type="url" name="website" required /></label>
+          </p>
 
-  <p>
-    <label>How did you learn about WWC?
-      <input type="text" name="referral" />
-    </label>
-  </p>
+          <p>
+            <label>Why would you like to join WWC?<span class="required">Required. We take the privacy of our members seriously and like to know whom we’re accepting as members. Please tell us in at least 50 words.</span>
+              <textarea name="why" id="why" rows="5" required></textarea>
+            </label>
+            <div id="why-error-msg" class="error-msg"></div>
 
-  <p>
-    <button type="submit">Apply for membership</button>
-  </p>
-</form>
+            <script>
+            const why = document.getElementById('why');
+            const error = document.getElementById('why-error-msg');
+
+            function checkWordCount() {
+              const words = why.value.trim().split(/\s+/).filter(Boolean);
+
+              if (words.length < 50) {
+                error.textContent = `${words.length} words`;
+                error.classList.remove('error-success');
+                error.classList.add('error-failure');
+                why.setCustomValidity('Please tell us in at least 50 words.');
+              } else {
+                error.textContent = `${words.length} words`;
+                error.classList.remove('error-failure');
+                error.classList.add('error-success');
+                why.setCustomValidity('');
+              }
+            }
+
+            why.addEventListener('input', checkWordCount);
+            </script>
+
+          </p>
+
+          <p>
+            <label>How did you learn about WWC? <span class="required">Optional. We’re just curious.</span>
+              <input type="text" name="referral" />
+            </label>
+          </p>
+
+          <p>
+            <button type="submit" class="my-1">Apply for membership</button>
+          </p>
+        </form>
+    </div>
+    <div class="basis-[20%] flex justify-end self-end">
+    </div>
+</article>
+
+{{ end }}
