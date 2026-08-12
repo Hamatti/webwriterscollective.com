@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="flex flex-col xl:flex-row items-stretch justify-between gap-6">
     <header class="basis-[25%]">
-        <div class="lg:sticky top-2">
+        <div class="lg:sticky lg:top-2">
             <h1>{{ .Title }}</h1>
             <h2>{{ .Params.subtitle }}</h2>
             {{ if isset .Params "toc" }}
