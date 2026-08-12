@@ -7,7 +7,7 @@ draft: false
 toc: true
 ---
 
-This privacy policy tells you what you can expect us to do with any personal information you may have shared with us at our request.
+This privacy policy tells you what you can expect us to do with any personal information you may have shared with us.
 
 # 1. Contact details
 
