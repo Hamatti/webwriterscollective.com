@@ -172,6 +172,13 @@ We use Red Sift for DMARC verification, via Mailgun.
 
 We use ImprovMX to receive and forward emails to shared inboxes. If you email an @webwriterscollective.com email address, your email will be processed by ImprovMX.
 
+#### 7.1.5.
+
+**Mailgun Technologies, Inc.**
+
+We use Mailgun for transactional emails (e.g. forum account verification, forum notifications).
+
+
 ## 7.2. Others we share personal information with
 
 #### 7.2.1.
