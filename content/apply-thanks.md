@@ -11,7 +11,7 @@ We really appreciate your interest in joining the Web Writers’ Collective and 
 
 We also take the privacy and confidence of our existing members seriously so our organisers decide jointly on every new membership application. Please rest assured that we will get back to you soon with our decision.
 
-<div class="flex flex-row items-center justify-start gap-1 my-2">
+<div class="flex flex-row flex-wrap items-center justify-start gap-1 my-2">
     <a href="/anthologies" class="button">Anthologies</a>
     <a href="/noticeboard" class="button">Noticeboard</a>
     <a href="/" class="button">Home</a>

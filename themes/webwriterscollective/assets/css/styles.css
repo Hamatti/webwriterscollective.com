@@ -335,7 +335,7 @@ form {
         }
 
         & .explanation {
-            @apply text-foreground/65 font-normal text-base block mb-0.5;
+            @apply text-foreground/65 font-normal text-base block mb-0.5 text-balance;
         }
 
     }
