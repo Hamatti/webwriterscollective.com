@@ -178,6 +178,12 @@ We use ImprovMX to receive and forward emails to shared inboxes. If you email an
 
 We use Mailgun for transactional emails (e.g. forum account verification, forum notifications).
 
+#### 7.1.6.
+
+**Cloudflare, Inc.**
+
+We use Cloudflare for DNS, traffic management and crawler blocking.
+
 
 ## 7.2. Others we share personal information with
 
@@ -195,46 +201,55 @@ Where necessary, we will transfer personal information outside of the UK. When d
 
 **Hetzner**
 
-**Organisation name**: Hetzner Online GmbH<br/>
-**Category of recipient**: Cloud compute provider<br/>
-**Country the personal information is sent to**: Germany<br/>
-**How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+**Organisation name:** Hetzner Online GmbH<br/>
+**Category of recipient:** Cloud compute provider<br/>
+**Country the personal information is sent to:** Germany<br/>
+**How the transfer complies with UK data protection law:** The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
 
 #### 7.3.3.
 
 **Netlify**
 
-**Organisation name**: Netlify, Inc.<br/>
-**Category of recipient**: Web hosting<br/>
-**Country the personal information is sent to**: United States<br/>
+**Organisation name:** Netlify, Inc.<br/>
+**Category of recipient:** Web hosting<br/>
+**Country the personal information is sent to:** United States<br/>
 **How the transfer complies with UK data protection law:** Addendum to the EU Standard Contractual Clauses (SCCs)
 
 #### 7.3.4.
 
 **Mailgun**
 
-**Organisation name**: Mailgun<br/>
-**Category of recipient**: Transactional email provider<br/>
-**Country the personal information is sent to**: European Union<br/>
-**How the transfer complies with UK data protection law**: Addendum to the EU Standard Contractual Clauses (SCCs)
+**Organisation name:** Mailgun<br/>
+**Category of recipient:** Transactional email provider<br/>
+**Country the personal information is sent to:** European Union<br/>
+**How the transfer complies with UK data protection law:** Addendum to the EU Standard Contractual Clauses (SCCs)
 
 #### 7.3.5.
 
 **Red Sift**
 
-**Organisation name**: Red Sift<br/>
-**Category of recipient**: DMARC email provider<br/>
-**Country the personal information is sent to**: UK, Europe, United States<br/>
-**How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+**Organisation name:** Red Sift<br/>
+**Category of recipient:** DMARC email provider<br/>
+**Country the personal information is sent to:** UK, Europe, United States<br/>
+**How the transfer complies with UK data protection law:** The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
 
 #### 7.3.6.
 
 **ImprovMX**
 
-**Organisation name**: ImprovMX<br/>
-**Category of recipient**: Email forwarding for shared inboxes<br/>
-**Country the personal information is sent to**: France, United States<br/>
-**How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+**Organisation name:** ImprovMX<br/>
+**Category of recipient:** Email forwarding for shared inboxes<br/>
+**Country the personal information is sent to:** France, United States<br/>
+**How the transfer complies with UK data protection law:** The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+
+#### 7.3.7.
+
+**Cloudflare**
+
+**Organisation name:** Cloudflare
+**Category of recipient:** DNS, traffic management and crawler blocking.
+**Country the personal information is sent to:** EU, United States
+**How the transfer complies with UK data protection law:** Data is sent to the EU under an Addendum to the EU Standard Contractual Clauses (SCCs). Data is sent to the United States under the provision that the country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge).
 
 ## 7.4. Data processors sharing information outside the UK
 
@@ -246,46 +261,55 @@ Where necessary, our data processors may share personal information outside of t
 
 **Hetzner**
 
-**Organisation name**: Hetzner Online GmbH<br/>
-**Category of recipient**: Cloud compute provider<br/>
-**Country the personal information is sent to**: Germany<br/>
-**How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+**Organisation name:** Hetzner Online GmbH<br/>
+**Category of recipient:** Cloud compute provider<br/>
+**Country the personal information is sent to:** Germany<br/>
+**How the transfer complies with UK data protection law:** The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
 
 #### 7.4.3.
 
 **Netlify**
 
-**Organisation name**: Netlify, Inc.<br/>
-**Category of recipient**: Web hosting<br/>
-**Country the personal information is sent to**: United States<br/>
+**Organisation name:** Netlify, Inc.<br/>
+**Category of recipient:** Web hosting<br/>
+**Country the personal information is sent to:** United States<br/>
 **How the transfer complies with UK data protection law:** Addendum to the EU Standard Contractual Clauses (SCCs)
 
 #### 7.4.4.
 
 **Mailgun**
 
-**Organisation name**: Mailgun<br/>
-**Category of recipient**: Transactional email provider<br/>
-**Country the personal information is sent to**: European Union<br/>
-**How the transfer complies with UK data protection law**: Addendum to the EU Standard Contractual Clauses (SCCs)
+**Organisation name:** Mailgun<br/>
+**Category of recipient:** Transactional email provider<br/>
+**Country the personal information is sent to:** European Union<br/>
+**How the transfer complies with UK data protection law:** Addendum to the EU Standard Contractual Clauses (SCCs)
 
 #### 7.4.5.
 
 **Red Sift**
 
-**Organisation name**: Red Sift<br/>
-**Category of recipient**: DMARC email provider<br/>
-**Country the personal information is sent to**: UK, Europe, United States<br/>
-**How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+**Organisation name:** Red Sift<br/>
+**Category of recipient:** DMARC email provider<br/>
+**Country the personal information is sent to:** UK, Europe, United States<br/>
+**How the transfer complies with UK data protection law:** The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
 
 #### 7.4.6.
 
 **ImprovMX**
 
-**Organisation name**: ImprovMX<br/>
-**Category of recipient**: Email forwarding for shared inboxes<br/>
-**Country the personal information is sent to**: France, United States<br/>
-**How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+**Organisation name:** ImprovMX<br/>
+**Category of recipient:** Email forwarding for shared inboxes<br/>
+**Country the personal information is sent to:** France, United States<br/>
+**How the transfer complies with UK data protection law:** The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+
+#### 7.4.7.
+
+**Cloudflare**
+
+**Organisation name:** Cloudflare
+**Category of recipient:** DNS, traffic management and crawler blocking.
+**Country the personal information is sent to:** EU, United States
+**How the transfer complies with UK data protection law:** Data is sent to the EU under an Addendum to the EU Standard Contractual Clauses (SCCs). Data is sent to the United States under the provision that the country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge).
 
 # 8. How to complain
 
