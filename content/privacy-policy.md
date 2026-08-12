@@ -229,6 +229,57 @@ Where necessary, we will transfer personal information outside of the UK. When d
 **Country the personal information is sent to**: France, United States<br/>
 **How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
 
+## 7.4. Data processors sharing information outside the UK
+
+#### 7.4.1.
+
+Where necessary, our data processors may share personal information outside of the UK. When doing so, they comply with the UK GDPR, making sure appropriate safeguards are in place.
+
+#### 7.4.2.
+
+**Hetzner**
+
+**Organisation name**: Hetzner Online GmbH<br/>
+**Category of recipient**: Cloud compute provider<br/>
+**Country the personal information is sent to**: Germany<br/>
+**How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+
+#### 7.4.3.
+
+**Netlify**
+
+**Organisation name**: Netlify, Inc.<br/>
+**Category of recipient**: Web hosting<br/>
+**Country the personal information is sent to**: United States<br/>
+**How the transfer complies with UK data protection law:** Addendum to the EU Standard Contractual Clauses (SCCs)
+
+#### 7.4.4.
+
+**Mailgun**
+
+**Organisation name**: Mailgun<br/>
+**Category of recipient**: Transactional email provider<br/>
+**Country the personal information is sent to**: European Union<br/>
+**How the transfer complies with UK data protection law**: Addendum to the EU Standard Contractual Clauses (SCCs)
+
+#### 7.4.5.
+
+**Red Sift**
+
+**Organisation name**: Red Sift<br/>
+**Category of recipient**: DMARC email provider<br/>
+**Country the personal information is sent to**: UK, Europe, United States<br/>
+**How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+
+#### 7.4.6.
+
+**ImprovMX**
+
+**Organisation name**: ImprovMX<br/>
+**Category of recipient**: Email forwarding for shared inboxes<br/>
+**Country the personal information is sent to**: France, United States<br/>
+**How the transfer complies with UK data protection law**: The country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge)
+
 # 8. How to complain
 
 #### 8.1.
