@@ -7,6 +7,10 @@ theme = "webwriterscollective"
   tag = "tags"
   author = "authors"
 
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 1
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
