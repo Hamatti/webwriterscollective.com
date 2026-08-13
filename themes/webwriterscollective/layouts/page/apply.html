@@ -35,15 +35,16 @@
 
           <p>
             <label>Website<span class="required">•</span>
-                <span class="explanation">We would love to visit your website and read some of your writing as they will help us make a decision. Please start your response with <code>https://</code></span>
+                <span class="explanation">We would love to visit your website and read some of your writing as they will help us make a decision.</span>
                 <input type="url" name="website" placeholder="https://" required />
             </label>
           </p>
 
           <p>
             <label>Why would you like to join WWC?<span class="required">•</span>
-                <span class="explanation"><strong>Please tell us in a few sentences.</strong> We value the time and effort our members put into keeping our collective meaningfully active. Therefore, we’d like get to know our potential members better.</span>
-                <textarea name="why" rows="5" required></textarea>
+                <span class="explanation"><strong>Please tell us in at least 50 words.</strong> We value the time and effort our members put into keeping our collective meaningfully active. Therefore, we’d like get to know our potential members better.</span>
+                <textarea id="why" name="why" rows="5" required></textarea>
+                <div id="why-error-msg" class="error-msg"></div>
             </label>
           </p>
 
@@ -62,5 +63,48 @@
     <div class="basis-[20%] flex justify-end self-end">
     </div>
 </article>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const website = document.querySelector('input[name="website"]');
+
+    function addDefaultScheme() {
+      if (website.value && !/^https?:\/\//i.test(website.value)) {
+        website.value = 'https://' + website.value;
+      }
+    }
+
+    website.addEventListener('blur', addDefaultScheme);
+
+    website.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        addDefaultScheme();
+      }
+    });
+  });
+</script>
+
+<script>
+    const why = document.getElementById('why');
+    const error = document.getElementById('why-error-msg');
+
+    function checkWordCount() {
+      const words = why.value.trim().split(/\s+/).filter(Boolean);
+
+      if (words.length < 50) {
+        error.textContent = `${words.length} words`;
+        error.classList.remove('error-success');
+        error.classList.add('error-failure');
+        why.setCustomValidity('Please tell us in at least 50 words.');
+      } else {
+        error.textContent = `${words.length} words`;
+        error.classList.remove('error-failure');
+        error.classList.add('error-success');
+        why.setCustomValidity('');
+      }
+    }
+
+    why.addEventListener('input', checkWordCount);
+</script>
 
 {{ end }}
