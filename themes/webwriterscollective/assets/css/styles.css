@@ -353,7 +353,7 @@ form {
     }
 
     & .error-msg {
-        @apply text-sm mb-1.5 -mt-0.5;
+        @apply text-base mb-1.5 -mt-0.5;
 
         &.error-success {
             @apply text-green-600;
