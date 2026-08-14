@@ -139,7 +139,7 @@ button, a.button {
     }
 
     &.secondary {
-        @apply bg-background border-2 border-foreground text-foreground hover:bg-foreground hover:text-background transition-fade;
+        @apply bg-background border-2 border-foreground text-foreground hover:bg-foreground hover:text-background! transition-fade;
     }
 
     &.disabled {
