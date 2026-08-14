@@ -248,6 +248,32 @@ strong em, em strong {
     @apply text-accent not-italic! mr-0.5;
 }
 
+/* TABLE OF CONTENTS */
+#TableOfContents {
+
+    @apply mt-2 mb-1;
+    font-feature-settings: var(--sans-features), "onum" 0, "tnum" 1;
+
+    & ul {
+
+        & > li {
+            @apply py-0.5 border-l border-accent ml-[3px] pl-1.5;
+
+            &:before {
+                content: "—";
+                @apply text-accent -ml-1.5 mr-0.5;
+            }
+        }
+
+    }
+
+    & > ul:before {
+        content: "Contents";
+        @apply block all-caps text-foreground/50 font-semibold text-sm mb-0.25!;
+    }
+
+}
+
 /* ISSUE CARD */
 .issue-card {
 
@@ -299,12 +325,56 @@ strong em, em strong {
     }
 }
 
+/* FORM */
+/* esp. application form */
+form {
+
+    @apply max-w-(--aw) mx-auto;
+
+    & label {
+        @apply font-semibold mb-0.5;
+
+        & .required {
+            @apply inline-block text-accent! absolute mt-[-7px] ml-[2px];
+        }
+
+        & .explanation {
+            @apply text-foreground/65 font-normal text-base block mb-0.5 text-balance;
+        }
+
+    }
+
+    & input, & textarea {
+        @apply block bg-offset border-2 border-foreground w-full p-0.5 transition-fade mb-1! font-[435];
+
+        &:focus {
+            @apply outline-0 border-accent transition-fade;
+        }
+    }
+
+    & .error-msg {
+        @apply text-base mb-1.5 -mt-0.5;
+
+        &.error-success {
+            @apply text-green-600;
+        }
+
+        &.error-failure {
+            @apply text-red-600;
+        }
+    }
+}
+
 /* SPECIAL ONE-OFF STYLES */
-.community-guidelines {
+.community-guidelines, .privacy-policy {
     & .prose {
         & :is(h1,h2,h3,h4,h5,h6) {
             font-feature-settings: var(--sans-features), "onum" 0, "tnum" 1 !important;
             @apply text-accent;
         }
     }
+}
+#compulsory-field {
+  position: absolute;
+  left: -9999px;
 }

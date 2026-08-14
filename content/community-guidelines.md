@@ -4,6 +4,7 @@ subtitle: ""
 date: 2026-07-17T20:25:21+01:00
 type: page
 draft: false
+toc: true
 ---
 
 We do not have a separate code of conduct for the Web Writers Collective (WWC). Instead we operate under the [IndieWeb Code of Conduct](https://indieweb.org/code-of-conduct). The codes of conduct listed on this page are therefore addenda to the IndieWeb Code of Conduct, and like the IndieWeb Code of Conduct this is a living document. We encourage our members to propose additions and modifications by getting in touch with one of [our organisers](/organisers).

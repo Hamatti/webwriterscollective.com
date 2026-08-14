@@ -1,0 +1,112 @@
+{{ define "main" }}
+
+<article class="flex flex-col xl:flex-row items-stretch justify-between gap-6">
+    <header class="basis-[25%]">
+        <div class="lg:sticky lg:top-2">
+            <h1>{{ .Title }}</h1>
+            <h2>{{ .Params.subtitle }}</h2>
+            {{ if isset .Params "toc" }}
+                {{ .TableOfContents }}
+            {{ end }}
+            {{ with .Parent.Params.issue_notice }}<a href="{{ . }}" class="button secondary">Looking for our current theme?</a>{{ end }}
+            {{ if eq .RelPermalink "/apply/" }}<small>Fields marked <span class="text-accent text-[1.5em]">•</span> are required.</small>{{ end }}
+        </div>
+    </header>
+    <div class="basis-[50%] prose w-(--article-width) max-w-full">
+
+        <form name="join-wwc" method="POST" action="/apply-thanks/" netlify netlify-honeypot="compulsory-field">
+          <p id="compulsory-field">
+            <label>Please fill this out: <input name="compulsory-field"></label>
+          </p>
+
+          <p>
+            <label>Name<span class="required">•</span>
+                <span class="explanation">This can be whatever you’d like us to call you, including a pseudonym.</span>
+                <input type="text" name="name" autocomplete="name" maxlength="2000" required />
+            </label>
+          </p>
+
+          <p>
+            <label>Email<span class="required">•</span>
+                <span class="explanation">We need this to contact you with our decision.</span>
+                <input type="email" name="email" autocomplete="email" maxlength="2000" required />
+            </label>
+          </p>
+
+          <p>
+            <label>Website<span class="required">•</span>
+                <span class="explanation">We would love to visit your website and read some of your writing as they will help us make a decision.</span>
+                <input type="url" name="website" autocomplete="url" placeholder="https://" maxlength="2000" required />
+            </label>
+          </p>
+
+          <p>
+            <label>Why would you like to join the Web Writers’ Collective?<span class="required">•</span>
+                <span class="explanation"><strong>Please tell us in at least 50 words.</strong> We value the time and effort our members put into keeping our collective meaningfully active. Therefore, we’d like get to know our potential members better.</span>
+                <textarea id="why" name="why" rows="5" maxlength="2000" required></textarea>
+                <div id="why-error-msg" class="error-msg"></div>
+            </label>
+          </p>
+
+          <p>
+            <label>How did you learn about us? <span class="explanation">We’re just curious – this is optional.</span>
+              <input type="text" name="referral" maxlength="2000" />
+            </label>
+          </p>
+
+          <p>
+            <button type="submit" class="my-1 primary">Apply for membership</button>
+          </p>
+        </form>
+
+    </div>
+    <div class="basis-[20%] flex justify-end self-end">
+    </div>
+</article>
+
+<!-- http prefixer -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const website = document.querySelector('input[name="website"]');
+
+    function addDefaultScheme() {
+      if (website.value && !/^https?:\/\//i.test(website.value)) {
+        website.value = 'https://' + website.value;
+      }
+    }
+
+    website.addEventListener('blur', addDefaultScheme);
+
+    website.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        addDefaultScheme();
+      }
+    });
+  });
+</script>
+
+<!-- Textarea word counter -->
+<script>
+    const why = document.getElementById('why');
+    const error = document.getElementById('why-error-msg');
+
+    function checkWordCount() {
+      const words = why.value.trim().split(/\s+/).filter(Boolean);
+
+      if (words.length < 50) {
+        error.textContent = `${words.length} words`;
+        error.classList.remove('error-success');
+        error.classList.add('error-failure');
+        why.setCustomValidity('Please tell us in at least 50 words.');
+      } else {
+        error.textContent = `${words.length} words`;
+        error.classList.remove('error-failure');
+        error.classList.add('error-success');
+        why.setCustomValidity('');
+      }
+    }
+
+    why.addEventListener('input', checkWordCount);
+</script>
+
+{{ end }}
