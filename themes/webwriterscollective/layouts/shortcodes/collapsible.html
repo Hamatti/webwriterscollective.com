@@ -1,0 +1,9 @@
+<details class="collapsible">
+  <summary class="collapsible__trigger">
+    {{ .Get "title" | default "Show more" }}
+  </summary>
+
+  <div class="collapsible__content">
+    {{ .Inner | markdownify }}
+  </div>
+</details>

@@ -365,6 +365,23 @@ form {
     }
 }
 
+/* COLLAPSIBLE CONTENT */
+.collapsible {
+    @apply mt-4;
+}
+
+.collapsible__trigger {
+    @apply cursor-pointer font-medium marker:text-accent hover:text-accent transition-fade;
+}
+
+.collapsible__content {
+    @apply bg-offset p-1.5 mt-2;
+
+    & *:first-child {
+        @apply mt-0!;
+    }
+}
+
 /* SPECIAL ONE-OFF STYLES */
 .community-guidelines, .privacy-policy {
     & .prose {

@@ -354,3 +354,17 @@ If you remain unhappy with how we’ve used your data after raising a complaint 
 
 **UK Helpline number:** 0303 123 1113<br/>
 **Website:** https://www.ico.org.uk/make-a-complaint
+
+***
+
+{{< collapsible title="Changelog" >}}
+
+## 14 August 2026
+
+- Two new data processors were added:
+  1. **Cloudflare.** We use Cloudflare for DNS, traffic management and crawler blocking
+  2. **Akismet.** We use Akismet for spam filtration on our membership application form
+- Listed *Mailgun Technologies, Inc*, our transactional email provider, under ‘Data processors’. Mailgun was previously included and its usage explained in the policy, but it was not present in the initial list of data processors.
+- Section numbers added for easier referencing
+
+{{< /collapsible >}}
