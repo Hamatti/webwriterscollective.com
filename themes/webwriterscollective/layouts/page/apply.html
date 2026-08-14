@@ -14,36 +14,36 @@
     </header>
     <div class="basis-[50%] prose w-(--article-width) max-w-full">
 
-        <form name="join-wwc" method="POST" action="/apply-thanks/" netlify netlify-honeypot="bot-field">
-          <p hidden>
-            <label>Please fill this out: <input name="bot-field"></label>
+        <form name="join-wwc" method="POST" action="/apply-thanks/" netlify netlify-honeypot="compulsory-field">
+          <p id="compulsory-field">
+            <label>Please fill this out: <input name="compulsory-field"></label>
           </p>
 
           <p>
             <label>Name<span class="required">•</span>
                 <span class="explanation">This can be whatever you’d like us to call you, including a pseudonym.</span>
-                <input type="text" name="name" required />
+                <input type="text" name="name" autocomplete="name" required />
             </label>
           </p>
 
           <p>
             <label>Email<span class="required">•</span>
                 <span class="explanation">We need this to contact you with our decision.</span>
-                <input type="email" name="email" required />
+                <input type="email" name="email" autocomplete="email" required />
             </label>
           </p>
 
           <p>
             <label>Website<span class="required">•</span>
                 <span class="explanation">We would love to visit your website and read some of your writing as they will help us make a decision.</span>
-                <input type="url" name="website" placeholder="https://" required />
+                <input type="url" name="website" autocomplete="url" placeholder="https://" required />
             </label>
           </p>
 
           <p>
             <label>Why would you like to join the Web Writers’ Collective?<span class="required">•</span>
                 <span class="explanation"><strong>Please tell us in at least 50 words.</strong> We value the time and effort our members put into keeping our collective meaningfully active. Therefore, we’d like get to know our potential members better.</span>
-                <textarea id="why" name="why" rows="5" required></textarea>
+                <textarea id="why" name="why" rows="5" maxlength="2000" required></textarea>
                 <div id="why-error-msg" class="error-msg"></div>
             </label>
           </p>

@@ -374,3 +374,7 @@ form {
         }
     }
 }
+#compulsory-field {
+  position: absolute;
+  left: -9999px;
+}
