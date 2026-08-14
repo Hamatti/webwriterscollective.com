@@ -252,18 +252,18 @@ Where necessary, we will transfer personal information outside of the UK. When d
 
 **Cloudflare**
 
-**Organisation name:** Cloudflare
-**Category of recipient:** DNS, traffic management and crawler blocking.
-**Country the personal information is sent to:** EU, United States
+**Organisation name:** Cloudflare<br/>
+**Category of recipient:** DNS, traffic management and crawler blocking.<br/>
+**Country the personal information is sent to:** EU, United States<br/>
 **How the transfer complies with UK data protection law:** Data is sent to the EU under an Addendum to the EU Standard Contractual Clauses (SCCs). Data is sent to the United States under the provision that the country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge).
 
 #### 7.3.8.
 
 **Akismet**
 
-**Organisation name:** Akismet
-**Category of recipient:** Spam filtration
-**Country the personal information is sent to:** United States
+**Organisation name:** Akismet<br/>
+**Category of recipient:** Spam filtration<br/>
+**Country the personal information is sent to:** United States<br/>
 **How the transfer complies with UK data protection law:** Data is sent to the United States under the Standard Contractual Clauses (SCCs), which have been upheld by the EU Court of Justice as a legal means of transferring data under the requirements of the GDPR and which are also recognised in the UK as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge).
 
 ## 7.4. Data processors sharing information outside the UK
@@ -321,18 +321,18 @@ Where necessary, our data processors may share personal information outside of t
 
 **Cloudflare**
 
-**Organisation name:** Cloudflare
-**Category of recipient:** DNS, traffic management and crawler blocking.
-**Country the personal information is sent to:** EU, United States
+**Organisation name:** Cloudflare<br/>
+**Category of recipient:** DNS, traffic management and crawler blocking.<br/>
+**Country the personal information is sent to:** EU, United States<br/>
 **How the transfer complies with UK data protection law:** Data is sent to the EU under an Addendum to the EU Standard Contractual Clauses (SCCs). Data is sent to the United States under the provision that the country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge).
 
 #### 7.4.8.
 
 **Akismet**
 
-**Organisation name:** Akismet
-**Category of recipient:** Spam filtration
-**Country the personal information is sent to:** United States
+**Organisation name:** Akismet<br/>
+**Category of recipient:** Spam filtration<br/>
+**Country the personal information is sent to:** United States<br/>
 **How the transfer complies with UK data protection law:** Data is sent to the United States under the Standard Contractual Clauses (SCCs), which have been upheld by the EU Court of Justice as a legal means of transferring data under the requirements of the GDPR and which are also recognised in the UK as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge).
 
 # 8. How to complain
