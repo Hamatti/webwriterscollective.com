@@ -184,7 +184,7 @@ We use Mailgun for transactional emails (e.g. forum account verification, forum 
 
 We use Cloudflare for DNS, traffic management and crawler blocking.
 
-#### 7.1.7
+#### 7.1.7.
 
 **Akismet**
 
@@ -257,7 +257,7 @@ Where necessary, we will transfer personal information outside of the UK. When d
 **Country the personal information is sent to:** EU, United States
 **How the transfer complies with UK data protection law:** Data is sent to the EU under an Addendum to the EU Standard Contractual Clauses (SCCs). Data is sent to the United States under the provision that the country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge).
 
-#### 7.3.8
+#### 7.3.8.
 
 **Akismet**
 
@@ -326,7 +326,7 @@ Where necessary, our data processors may share personal information outside of t
 **Country the personal information is sent to:** EU, United States
 **How the transfer complies with UK data protection law:** Data is sent to the EU under an Addendum to the EU Standard Contractual Clauses (SCCs). Data is sent to the United States under the provision that the country or sector has been assessed as providing adequate protection to data subjects (also known as Adequacy Regulations or UK data bridge).
 
-#### 7.4.8
+#### 7.4.8.
 
 **Akismet**
 
