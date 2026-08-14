@@ -9,7 +9,7 @@ draft: false
 
 We really appreciate your interest in joining the Web Writers’ Collective and we are always excited to welcome new members.
 
-We also take the privacy and confidence of our existing members seriously so our organisers decide jointly on every new membership application. Please rest assured that we will get back to you soon with our decision.
+We also take the privacy and confidence of our existing members seriously so our organisers decide jointly on every new membership application. It may take our organisers at least a week to review and decide on each application. Please rest assured that we will get back to you soon with our decision.
 
 <div class="flex flex-row flex-wrap items-center justify-start gap-1 my-2">
     <a href="/anthologies" class="button">Anthologies</a>
