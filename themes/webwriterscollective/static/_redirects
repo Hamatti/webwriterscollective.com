@@ -5,3 +5,5 @@
 /code-of-conduct    /community-guidelines    301
 /privacy    /privacy-policy    301
 /pp    /privacy-policy    301
+/webring/next/*    /webring/    302
+/webring/previous/*    /webring/    302
