@@ -21,15 +21,14 @@
         <div class="lg:sticky lg:top-2">
             <h1>{{ .Title }}</h1>
             <h2>{{ .Params.subtitle }}</h2>
+            {{ if isset .Params "toc" }}
+                {{ .TableOfContents }}
+            {{ end }}
         </div>
     </header>
 
     <div class="basis-[50%] prose w-(--article-width) max-w-full">
         {{ .Content }}
-
-        <hr/>
-
-        <h2>Existing webring members</h2>
 
         <p>
             Members are listed below in the order in which they are present
