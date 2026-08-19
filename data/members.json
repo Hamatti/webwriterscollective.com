@@ -1,0 +1,244 @@
+{
+  "members": [
+    {
+      "user": "BinaryDigit",
+      "name": "@binarydigit",
+      "url": "https://notes.binarydigit.net/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "naty",
+      "name": "Ana Olivia",
+      "url": "https://anaolivia.micro.blog/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "anarodrigues",
+      "name": "Ana Rodrigues",
+      "url": "https://ohhelloana.blog/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "brennanbrown",
+      "name": "Brennan.day",
+      "url": "https://brennan.day/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "Britt",
+      "name": "BrittHub",
+      "url": "https://britthub.co.uk/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "doenietzomoeilijk",
+      "name": "BurgeonLab",
+      "url": "https://burgeonlab.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "cygnoir",
+      "name": "cygnoir.net",
+      "url": "https://cygnoir.net/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "dead.garden",
+      "name": "Jo's Blog",
+      "url": "https://dead.garden/blog/index.html",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "joelchrono",
+      "name": "Joelchrono's Blog",
+      "url": "https://joelchrono.xyz/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "juhis",
+      "name": "Juhis",
+      "url": "https://hamatti.org/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "kedara",
+      "name": "Kedara",
+      "url": "https://kedara.eu/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "Loreleice",
+      "name": "Loreleice's Digital Notebook",
+      "url": "https://loreleice.net/notebook.html",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "Marisabel",
+      "name": "Konfetti Explorations",
+      "url": "https://marisabel.nl/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "moddedBear",
+      "name": "moddedbear.com",
+      "url": "https://moddedbear.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "amin",
+      "name": "Benjamin Hollon",
+      "url": "https://benjaminhollon.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "thamarak",
+      "name": "Notebook - Thamara Kandabada",
+      "url": "https://thamara.co.uk/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "jcprobably",
+      "name": "Notes by JCProbably",
+      "url": "https://notes.jeddacp.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "oluOnline",
+      "name": "Olu Online",
+      "url": "https://olu.online/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "enocc",
+      "name": "Pablo Enoc",
+      "url": "https://enocc.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "nicks.im",
+      "name": "Posts from Nick Simson",
+      "url": "https://www.nicksimson.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "sorbier",
+      "name": "sorbier",
+      "url": "https://sorbier.neocities.org/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "Syl",
+      "name": "Syl's Blog",
+      "url": "https://syls.blog/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "tabitha",
+      "name": "Tabitha",
+      "url": "https://tabitha.computer/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "theTangentSpace",
+      "name": "thetangent.space",
+      "url": "https://thetangent.space/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "Tracy",
+      "name": "Tracy Durnell's Mind Garden",
+      "url": "https://tracydurnell.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "vhbelvadi",
+      "name": "V.H. Belvadi",
+      "url": "https://vhbelvadi.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "wavelight",
+      "name": "wavelight",
+      "url": "https://wavelight.ws/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "fxley",
+      "name": "What the Fran",
+      "url": "https://francescrossley.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "capjamesg",
+      "name": "with words, wonder",
+      "url": "https://jamesg.blog/longform-feed",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "zacharykai",
+      "name": "Zachary Kai",
+      "url": "https://zacharykai.net/",
+      "webring": {
+        "enabled": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{{ $members := where site.Data.members.members "webring.enabled" true }}
+
+{{ $ring := slice }}
+
+{{ range $members }}
+  {{ $ring = $ring | append (dict
+    "member" .
+    "hash" (md5 .user)
+  ) }}
+{{ end }}
+
+{{ $ring = sort $ring "hash" }}
+
+{{ $count := len $ring }}
+
+{{ range $index, $entry := $ring }}
+  {{ $current := $entry.member }}
+
+  {{ $parsedURL := urls.Parse $current.url }}
+  {{ $domain := $parsedURL.Host }}
+
+  {{ $nextIndex := mod (add $index 1) $count }}
+  {{ $nextEntry := index $ring $nextIndex }}
+  {{ $destination := $nextEntry.member.url }}
+
+  {{ $page := dict
+    "kind" "page"
+    "path" $domain
+    "title" (printf "Webring Next — %s" $current.name)
+    "params" (dict
+      "domain" $domain
+      "user" $current.user
+      "destination" $destination
+    )
+  }}
+
+  {{ $.AddPage $page }}
+{{ end }}
