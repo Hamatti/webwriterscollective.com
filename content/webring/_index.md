@@ -65,7 +65,19 @@ Use the following code to add links to the WWC Webring on your site:
 &lt;a href="https://webwriterscollective.com/webring/"&gt;WWC Webring&lt;/a&gt;
 &lt;a href="https://webwriterscollective.com/webring/next/{domain.tld}/"&gt;Next&lt;/a&gt;</code></pre>
 
-Please ensure you update `{domain.tld}` (without braces) to match your website’s domain. The actual page on your website to which this webring will bring visitors may be different as set in [the `json` file](#) in our repo.
+**The next and previous links are compulsory.** If you would like to also add a link to a random website on the webring, use this:
+
+```
+<a href="https://webwriterscollective.com/random/{domain.tld}">WWC Webring</a>
+```
+
+In all cases above, please ensure you update `{domain.tld}` (without braces) to match your website’s domain. The actual page on your website to which this webring will bring visitors may be different as set in [the `json` file](#) in our repo.
+
+{{< infobox type="info" >}}
+
+**The WWC Webring does not use javascript.** However, if you want to add the *random link* enhancement, javascript will be used. For users who have javascript disabled, the random link will still work but it will no longer be randomised on multiple visits since our webring is powered by a static site. The randomness will still change on subsequent rebuilds.
+
+{{< /infobox >}}
 
 If you are already part of the webring, you can grab your code again or use one of our buttons found against [your name below](#existing-webring-members). We request that you download and host the button images yourself instead of hotlinking to us.
 

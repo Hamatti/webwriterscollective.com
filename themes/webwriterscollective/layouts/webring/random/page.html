@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+
+  {{ $members := where site.Data.members.members "webring.enabled" true }}
+
+  {{ $ring := slice }}
+
+  {{ range $members }}
+    {{ $parsedURL := urls.Parse .url }}
+    {{ $domain := $parsedURL.Host }}
+
+    {{ $ring = $ring | append (dict
+      "user" .user
+      "url" .url
+      "domain" $domain
+      "hash" (md5 .user)
+    ) }}
+  {{ end }}
+
+  {{ $currentDomain := .Params.domain }}
+
+  {{ $others := where $ring "domain" "ne" $currentDomain }}
+  {{ $shuffled := shuffle $others }}
+  {{ $fallback := index $shuffled 0 }}
+
+  <meta
+    http-equiv="refresh"
+    content="0;url={{ $fallback.url }}"
+  >
+
+  <title>WWC Webring • Random</title>
+</head>
+
+<body>
+
+  <p>
+    RANDOM:
+    <a href="{{ $fallback.url }}">
+      {{ $fallback.url }}
+    </a>
+  </p>
+
+  <div
+    id="webring-random-members"
+    data-current-domain="{{ $currentDomain }}"
+    hidden
+  >
+    {{ range $members }}
+      {{ $parsedURL := urls.Parse .url }}
+      {{ $domain := $parsedURL.Host }}
+
+      <a
+        data-domain="{{ $domain }}"
+        data-url="{{ .url }}"
+      ></a>
+    {{ end }}
+  </div>
+
+  <script>
+    const container = document.getElementById('webring-random-members');
+
+    const currentDomain = container.dataset.currentDomain;
+
+    const members = Array.from(
+      container.querySelectorAll('[data-url]')
+    ).map(element => ({
+      domain: element.dataset.domain,
+      url: element.dataset.url
+    }));
+
+    const others = members.filter(
+      member => member.domain !== currentDomain
+    );
+
+    if (others.length > 0) {
+      const randomMember =
+        others[Math.floor(Math.random() * others.length)];
+
+      window.location.replace(randomMember.url);
+    }
+  </script>
+
+</body>
+</html>

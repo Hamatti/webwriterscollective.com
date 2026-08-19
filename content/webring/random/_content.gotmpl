@@ -1,0 +1,19 @@
+{{ $members := where site.Data.members.members "webring.enabled" true }}
+
+{{ range $current := $members }}
+
+  {{ $parsedURL := urls.Parse $current.url }}
+  {{ $domain := $parsedURL.Host }}
+
+  {{ $page := dict
+    "kind" "page"
+    "path" $domain
+    "title" (printf "Webring Random — %s" $current.name)
+    "params" (dict
+      "domain" $domain
+    )
+  }}
+
+  {{ $.AddPage $page }}
+
+{{ end }}
