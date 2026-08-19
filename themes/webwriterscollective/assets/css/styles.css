@@ -237,7 +237,7 @@ h4 {
     }
 
     pre {
-        @apply my-2 overflow-x-scroll pb-0.5 -mb-0.5;
+        @apply my-2 overflow-x-scroll pb-0.5;
     }
 }
 
