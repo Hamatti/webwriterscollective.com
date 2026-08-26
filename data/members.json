@@ -1,0 +1,84 @@
+{
+  "members": [
+    {
+      "user": "joelchrono",
+      "name": "joelchrono",
+      "url": "https://joelchrono.xyz/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "dead.garden",
+      "name": "Jo",
+      "url": "https://dead.garden/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "sorbier",
+      "name": "sorbier",
+      "url": "https://sorbier.neocities.org/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "enocc",
+      "name": "Pablo Enoc",
+      "url": "https://enocc.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "tabitha",
+      "name": "Tabitha",
+      "url": "https://tabitha.computer/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "brennanbrown",
+      "name": "Brennan.day",
+      "url": "https://brennan.day/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "naty",
+      "name": "BurgeonLab",
+      "url": "https://burgeonlab.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "juhis",
+      "name": "Juhis",
+      "url": "https://hamatti.org/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "vhbelvadi",
+      "name": "V.H. Belvadi",
+      "url": "https://vhbelvadi.com/",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
+      "user": "capjamesg",
+      "name": "with words, wonder",
+      "url": "https://jamesg.blog/longform-feed",
+      "webring": {
+        "enabled": true
+      }
+    }
+  ]
+}

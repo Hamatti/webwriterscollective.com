@@ -1,0 +1,141 @@
+{{ define "main" }}
+
+{{ $members := where site.Data.members.members "webring.enabled" true }}
+
+{{ $ring := slice }}
+
+{{ range $members }}
+  {{ $ring = $ring | append (dict
+    "member" .
+    "hash" (md5 .user)
+  ) }}
+{{ end }}
+
+{{ $ring = sort $ring "hash" }}
+
+{{ $currentURL := urls.Parse .Permalink }}
+{{ $baseURL := printf "%s://%s" $currentURL.Scheme $currentURL.Host }}
+
+<article class="flex flex-col xl:flex-row items-stretch justify-between gap-6">
+    <header class="basis-[25%]">
+        <div class="lg:sticky lg:top-2">
+            <h1>{{ .Title }}</h1>
+            <h2>{{ .Params.subtitle }}</h2>
+            {{ if isset .Params "toc" }}
+                {{ .TableOfContents }}
+            {{ end }}
+        </div>
+    </header>
+
+    <div class="basis-[50%] prose w-(--article-width) max-w-full">
+        {{ .Content }}
+
+        <p>
+            Members are listed below in the order in which they are present
+            on our webring, which means neighbours are listed together!
+        </p>
+
+        <ul id="existing-webring-members" class="list-none! mt-2!">
+          {{ range $ring }}
+
+            {{ $member := .member }}
+            {{ $hash := .hash }}
+
+            {{ $parsedURL := urls.Parse $member.url }}
+            {{ $domain := $parsedURL.Host }}
+
+            <li>
+                <details class="collapsible mt-1! mb-2!">
+                    <summary class="collapsible__trigger">
+                        {{ $member.user }} <code class="select-none inline-block ml-0.5 text-foreground/15! hover:text-foreground! transition-fade text-xs!">{{ $hash }}</code>
+                    </summary>
+
+                    <div class="collapsible__content bg-background! border-2 border-dotted border-foreground/50">
+
+                        <div class="flex flex-col gap-1">
+
+                            <!-- HTML -->
+                            <div class="flex flex-row gap-1">
+                                <p class="min-w-[88px] font-mono text-foreground/50 font-medium text-[0.8em]">< HTML /></p>
+
+                                <button
+                                    type="button"
+                                    onclick="
+                                        const text = document.getElementById('webring-code-{{ $domain }}').textContent;
+                                        navigator.clipboard.writeText(text)
+                                            .then(() => this.textContent = 'Copied')
+                                            .catch(error => console.error(error));
+                                    "
+                                >
+                                    Copy HTML
+                                </button>
+                            </div>
+
+                            <!-- HOTSPOT BUTTON -->
+                            <div class="flex flex-row gap-1">
+                                <div class="flex items-center justify-center">
+                                    <img
+                                        src="/buttons/wwc-webring-arrows-button.png"
+                                        width="88"
+                                        height="31"
+                                        alt="WWC Webring"
+                                    >
+                                </div>
+
+                                <button
+                                    type="button"
+                                    onclick="
+                                        const text = document.getElementById('webring-button-1-{{ $domain }}').textContent;
+                                        navigator.clipboard.writeText(text)
+                                            .then(() => this.textContent = 'Copied')
+                                            .catch(error => console.error(error));
+                                    "
+                                >
+                                    Copy button
+                                </button>
+                            </div>
+
+                            <!-- LEGACY BUTTON -->
+                            <div class="flex flex-row gap-1">
+                                <div class="flex items-center justify-center">
+                                    <img
+                                        src="/buttons/wwc-webring-legacy-button.png"
+                                        width="88"
+                                        height="31"
+                                        alt="WWC Webring"
+                                    >
+                                </div>
+
+                                <a href="/buttons/wwc-webring-legacy-button.png" class="button" download>
+                                    Download button
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <!--HTML CODE-->
+                        <pre id="webring-code-{{ $domain }}" class="hidden"><code>&lt;a href="{{ $baseURL }}/webring/previous/{{ $domain }}/"&gt;Previous&lt;/a&gt;
+&lt;a href="{{ $baseURL }}/webring/"&gt;WWC Webring&lt;/a&gt;
+&lt;a href="{{ $baseURL }}/webring/next/{{ $domain }}/"&gt;Next&lt;/a&gt;</code></pre>
+
+                        <!--HOTSPOT BUTTON CODE-->
+                        <pre id="webring-button-1-{{ $domain }}" class="hidden"><code>&lt;img src="{{ $baseURL }}/buttons/wwc-webring-arrows-button.png" usemap="#wwc-arrows-map"&gt;
+&lt;map name="wwc-arrows-map"&gt;
+    &lt;area alt="Previous WWC Webring link" title="Previous WWC Webring link" href="{{ $baseURL }}/webring/previous/{{ $domain }}/" coords="14,15" shape="rect"&gt;
+    &lt;area alt="Next WWC Webring link" title="Next WWC Webring link" href="{{ $baseURL }}/webring/next/{{ $domain }}/" coords="73,15" shape="rect"&gt;
+    &lt;area alt="Webring" title="WWC Webring" href="{{ $baseURL }}/webring/" coords="44,16,8" shape="circle"&gt;
+&lt;/map&gt;</code></pre>
+
+                    </div>
+                </details>
+            </li>
+
+          {{ end }}
+        </ul>
+    </div>
+
+    <div class="basis-[20%] flex justify-end self-end">
+    </div>
+</article>
+
+{{ end }}
