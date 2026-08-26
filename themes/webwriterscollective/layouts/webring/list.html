@@ -35,7 +35,7 @@
             on our webring, which means neighbours are listed together!
         </p>
 
-        <ul id="existing-webring-members" class="list-none! mt-2!">
+        <ul id="existing-webring-members" class="webring-details list-none! mt-2!">
           {{ range $ring }}
 
             {{ $member := .member }}
@@ -50,7 +50,7 @@
                         {{ $member.user }} <code class="select-none inline-block ml-0.5 text-foreground/15! hover:text-foreground! transition-fade text-xs!">{{ $hash }}</code>
                     </summary>
 
-                    <div class="collapsible__content bg-background! border-2 border-dotted border-foreground/50">
+                    <div class="collapsible__content">
 
                         <div class="flex flex-col gap-1">
 
@@ -137,5 +137,24 @@
     <div class="basis-[20%] flex justify-end self-end">
     </div>
 </article>
+
+<!-- SOLO MODE for details/summary -->
+<script>
+document.querySelectorAll('.webring-details').forEach((group) => {
+  const details = group.querySelectorAll('details');
+
+  details.forEach((detail) => {
+    detail.addEventListener('toggle', () => {
+      if (!detail.open) return;
+
+      details.forEach((other) => {
+        if (other !== detail) {
+          other.open = false;
+        }
+      });
+    });
+  });
+});
+</script>
 
 {{ end }}

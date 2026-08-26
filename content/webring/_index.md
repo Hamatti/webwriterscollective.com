@@ -69,7 +69,7 @@ Use the following code to add links to the WWC Webring on your site:
 **The next and previous links are compulsory.** If you would like to also add a link to a random website on the webring, use this:
 
 ```
-<a href="https://webwriterscollective.com/random/{domain.tld}">WWC Webring</a>
+<a href="https://webwriterscollective.com/webring/random/{domain.tld}">WWC Webring</a>
 ```
 
 In all cases above, please ensure you update `{domain.tld}` (without braces) to match your website’s domain. The actual page on your website to which this webring will bring visitors may be different as set in [the `json` file](#) in our repo.
