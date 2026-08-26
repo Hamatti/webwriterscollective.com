@@ -2,6 +2,7 @@
 title: "WWC Webring"
 toc: true
 draft: false
+hide_from_menu: true
 ---
 
 This page is for existing WWC members to learn more about joining our webring or add links to their website. You can also view our existing webring members below.
@@ -73,13 +74,27 @@ Use the following code to add links to the WWC Webring on your site:
 
 In all cases above, please ensure you update `{domain.tld}` (without braces) to match your website’s domain. The actual page on your website to which this webring will bring visitors may be different as set in [the `json` file](#) in our repo.
 
+{{< infobox type="joy" >}}
+
+**Help us make this a self-healing webring.** Whenever you have a moment, please check to make sure your webring links are functioning and that your neighbours on either side have their webring links displayed on their websites too. If not, please let one of [our organisers](/organisers) know so we can fix this as quickly as possible!
+
+{{< /infobox >}}
+
+If you are already part of the webring, you can grab your code again or use one of our buttons found against [your name below](#existing-webring-members). We request that you download and host the button images yourself instead of hotlinking to us.
+
+# Leaving this webring
+
+Leaving this webring is easy. Please get in touch with [one of our organisers](/organisers) and let them know that you wish to leave this webring. Then remove the links from your website. You do not have to wait for our response once you have intimated us.
+
+While it may be tempting to ‘leave’ this webring by simply deleting links from your website without informing us, this would be somewhat inconsiderate since doing so would break the webring. People arriving at your website via the webring may be unable to continue onto the next website.
+
+When you write to us, you need not explain why you wish to leave the webring. We just need to know you are leaving so we can delist you and keep the webring intact for everyone else.
+
 {{< infobox type="info" >}}
 
 **The WWC Webring does not use javascript.** However, if you want to add the *random link* enhancement, javascript will be used. For users who have javascript disabled, the random link will still work but it will no longer be randomised on multiple visits since our webring is powered by a static site. The randomness will still change on subsequent rebuilds.
 
 {{< /infobox >}}
-
-If you are already part of the webring, you can grab your code again or use one of our buttons found against [your name below](#existing-webring-members). We request that you download and host the button images yourself instead of hotlinking to us.
 
 ***
 

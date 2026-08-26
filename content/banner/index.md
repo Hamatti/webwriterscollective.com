@@ -1,10 +1,10 @@
 ---
 headless: true
-title: ""
-callout: ""
-button_text: ""
-button_url: ""
-draft: true
+title: "Join our webring:"
+callout: "If you’re an existing member of WWC, you’re eligible to join our new webring."
+button_text: "Join the WWC webring"
+button_url: "/webring"
+draft: false
 ---
 
 # Instructions
