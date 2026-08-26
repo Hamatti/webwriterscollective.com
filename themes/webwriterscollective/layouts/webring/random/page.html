@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-GB">
 <head>
   <meta charset="utf-8">
   <meta name="robots" content="noindex">
@@ -21,14 +19,13 @@
   {{ end }}
 
   {{ $currentDomain := .Params.domain }}
-
   {{ $others := where $ring "domain" "ne" $currentDomain }}
   {{ $shuffled := shuffle $others }}
   {{ $fallback := index $shuffled 0 }}
 
   <meta
     http-equiv="refresh"
-    content="0;url={{ $fallback.url }}"
+    content="2;url={{ $fallback.url }}"
   >
 
   <title>WWC Webring • Random</title>
@@ -36,12 +33,14 @@
 
 <body>
 
-  <p>
-    RANDOM:
-    <a href="{{ $fallback.url }}">
-      {{ $fallback.url }}
-    </a>
-  </p>
+  <noscript>
+    <p>
+      Taking you to a random member…
+      <a href="{{ $fallback.url }}">
+        Continue to {{ $fallback.url }}
+      </a>
+    </p>
+  </noscript>
 
   <div
     id="webring-random-members"
@@ -84,4 +83,3 @@
   </script>
 
 </body>
-</html>
