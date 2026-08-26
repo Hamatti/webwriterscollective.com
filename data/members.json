@@ -47,6 +47,14 @@
       "webring": {
         "enabled": true
       }
+    },
+    {
+      "user": "thamarak",
+      "name": "Thamara",
+      "url": "https://thamara.co.uk",
+      "webring": {
+        "enabled": true
+      }
     }
   ]
 }
