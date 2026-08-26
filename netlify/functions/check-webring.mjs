@@ -4,7 +4,11 @@ const TIMEOUT = 10_000;
 const CONCURRENCY = 10;
 
 async function checkMember(member) {
+  let domain;
+
   try {
+    domain = new URL(member.url).hostname;
+
     const response = await fetch(member.url, {
       headers: {
         "User-Agent": "WWC-Webring-Checker/1.0"
@@ -15,9 +19,8 @@ async function checkMember(member) {
 
     if (!response.ok) {
       return {
-        member,
-        status: "error",
-        error: `HTTP ${response.status}`
+        domain,
+        result: `ERROR: HTTP ${response.status}`
       };
     }
 
@@ -45,28 +48,20 @@ async function checkMember(member) {
       }
     });
 
-    if (!hasWebring) {
-      return {
-        member,
-        status: "missing"
-      };
-    }
-
     return {
-      member,
-      status: "ok"
+      domain,
+      result: hasWebring ? "YES" : "NO"
     };
   } catch (error) {
     return {
-      member,
-      status: "error",
-      error: error.message
+      domain: domain || member.url,
+      result: `ERROR: ${error.message}`
     };
   }
 }
 
 async function runWithConcurrency(items, limit, callback) {
-  const results = [];
+  const results = new Array(items.length);
   let nextIndex = 0;
 
   async function worker() {
@@ -109,35 +104,15 @@ export default async () => {
     checkMember
   );
 
-  const failures = results.filter(
-    result => result.status !== "ok"
+  const longestDomain = Math.max(
+    ...results.map(result => result.domain.length)
   );
 
-  for (const result of failures) {
-    if (result.status === "missing") {
-      console.log(
-        `MISSING WEBRING: ${result.member.name} (${result.member.url})`
-      );
-    }
-
-    if (result.status === "error") {
-      console.log(
-        `CHECK ERROR: ${result.member.name} (${result.member.url}) — ${result.error}`
-      );
-    }
+  for (const result of results) {
+    console.log(
+      `${result.domain.padEnd(longestDomain)}  ${result.result}`
+    );
   }
-
-  return new Response(
-    JSON.stringify({
-      checked: members.length,
-      failures: failures.length
-    }),
-    {
-      headers: {
-        "content-type": "application/json"
-      }
-    }
-  );
 };
 
 export const config = {
