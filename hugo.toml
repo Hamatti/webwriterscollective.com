@@ -12,8 +12,29 @@ theme = "webwriterscollective"
   endLevel = 1
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.parser]
-      autoHeadingID = true
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+  [markup.goldmark.parser]
+    autoHeadingID = true
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[outputFormats.CombinedRSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed"
+  isPlainText = true
+  rel = "alternate"
+
+[outputFormats.NoticeboardRSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed"
+  isPlainText = true
+  rel = "alternate"
+
+[outputFormats.AnthologyArticlesRSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed"
+  isPlainText = true
+  rel = "alternate"
+
+[outputs]
+  home = ["HTML", "CombinedRSS"]

@@ -1,0 +1,78 @@
+{{- $pages := where site.RegularPages "Draft" false -}}
+{{- $notices := where $pages "Type" "notice" -}}
+{{- $issues := where $pages "Type" "issue" -}}
+{{- $items := $notices | union $issues -}}
+{{- $items = $items.ByDate.Reverse -}}
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ printf "%s – Latest" site.Title | html }}</title>
+    <link>{{ site.Home.Permalink }}</link>
+    <description>Latest notices and Anthology issues</description>
+    <language>{{ site.Language.LanguageCode }}</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+
+    {{- range $items }}
+      {{- $item := . -}}
+      <item>
+        <title>{{ $item.Title | html }}</title>
+        <link>{{ $item.Permalink }}</link>
+        <guid isPermaLink="true">{{ $item.Permalink }}</guid>
+
+        {{- with $item.Date }}
+        <pubDate>{{ .Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+        {{- end }}
+
+        <description><![CDATA[
+          {{- if eq $item.Type "notice" }}
+
+          {{- with $item.Params.subtitle }}
+            <p>{{ . | markdownify }}</p>
+          {{- end }}
+
+          {{- with $item.Params.external_link }}
+            <p><a href="{{ . }}">View external link</a></p>
+          {{- end }}
+
+          {{- with $item.Params.authors }}
+            <p>By {{ delimit . ", " }}</p>
+          {{- end }}
+
+          {{- with $item.Params.summary }}
+            <div>{{ . | markdownify }}</div>
+          {{- end }}
+
+          {{- with $item.Content }}
+            {{ . }}
+          {{- end }}
+
+          {{- else if eq $item.Type "issue" }}
+
+            {{- with $item.Params.issue }}
+              <p>Issue {{ . | html }}</p>
+            {{- end }}
+
+            {{- with $item.Params.cover }}
+              {{- $coverPath := . -}}
+              {{- with $item.Resources.GetMatch $coverPath }}
+                <p><img src="{{ .Permalink }}" alt="{{ $item.Title | html }}"></p>
+              {{- else }}
+                <p><img src="{{ $coverPath | absURL }}" alt="{{ $item.Title | html }}"></p>
+              {{- end }}
+            {{- end }}
+
+            {{- with $item.Date }}
+              <p>{{ .Format "2 January 2006" }}</p>
+            {{- end }}
+
+            {{- with $item.Content }}
+              {{ . }}
+            {{- end }}
+
+          {{- end }}
+        ]]></description>
+      </item>
+    {{- end }}
+  </channel>
+</rss>

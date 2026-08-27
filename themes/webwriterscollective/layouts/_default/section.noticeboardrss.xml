@@ -1,0 +1,49 @@
+{{- $pages := where site.RegularPages "Draft" false -}}
+{{- $items := where $pages "Type" "notice" -}}
+{{- $items = $items.ByDate.Reverse -}}
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ printf "%s – Noticeboard" site.Title | html }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Latest notices</description>
+    <language>{{ site.Language.LanguageCode }}</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+
+    {{- range $items }}
+      {{- $item := . -}}
+      <item>
+        <title>{{ $item.Title | html }}</title>
+        <link>{{ $item.Permalink }}</link>
+        <guid isPermaLink="true">{{ $item.Permalink }}</guid>
+
+        {{- with $item.Date }}
+        <pubDate>{{ .Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+        {{- end }}
+
+        <description><![CDATA[
+            {{- with $item.Params.subtitle }}
+              <p>{{ . | markdownify }}</p>
+            {{- end }}
+
+            {{- with $item.Params.external_link }}
+              <p><a href="{{ . }}">View external link</a></p>
+            {{- end }}
+
+            {{- with $item.Params.authors }}
+              <p>By {{ delimit . ", " }}</p>
+            {{- end }}
+
+            {{- with $item.Params.summary }}
+              <div>{{ . | markdownify }}</div>
+            {{- end }}
+
+            {{- with $item.Content }}
+              {{ . }}
+            {{- end }}
+        ]]></description>
+      </item>
+    {{- end }}
+  </channel>
+</rss>
