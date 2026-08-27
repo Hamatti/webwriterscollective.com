@@ -28,7 +28,7 @@ There are two other prerequisites:
 
 ## Method 1: Add yourself
 
-You can [submit a pull request](https://github.com/WebWritersCollective/webwriterscollective.com) on our repo after adding yourself to the [existing webring](#) with the following code:
+You can [submit a pull request](https://github.com/WebWritersCollective/webwriterscollective.com) on our repo after adding yourself to the [existing webring](https://github.com/WebWritersCollective/webwriterscollective.com/blob/main/data/members.json) with the following code:
 
 ```
 {
@@ -72,11 +72,11 @@ Use the following code to add links to the WWC Webring on your site:
 <a href="https://webwriterscollective.com/webring/random/{domain.tld}">WWC Webring</a>
 ```
 
-In all cases above, please ensure you update `{domain.tld}` (without braces) to match your website’s domain. The actual page on your website to which this webring will bring visitors may be different as set in [the `json` file](#) in our repo.
+In all cases above, please ensure you update `{domain.tld}` (without braces) to match your website’s domain. The actual page on your website to which this webring will bring visitors may be different as set in [the `json` file](https://github.com/WebWritersCollective/webwriterscollective.com/blob/main/data/members.json) in our repo.
 
 {{< infobox type="joy" >}}
 
-**Help us make this a self-healing webring.** Whenever you have a moment, please check to make sure your webring links are functioning and that your neighbours on either side have their webring links displayed on their websites too. If not, please let one of [our organisers](/organisers) know so we can fix this as quickly as possible!
+**Help us make this a self-healing webring.** We do not monitor this webring actively. So whenever you have a moment, please check to make sure your webring links are functioning and that your neighbours on either side have their webring links displayed on their websites too. If not, please let one of [our organisers](/organisers) know so we can fix this as quickly as possible!
 
 {{< /infobox >}}
 
