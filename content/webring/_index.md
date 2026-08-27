@@ -84,7 +84,7 @@ If you are already part of the webring, you can grab your code again or use one 
 
 # Leaving this webring
 
-Leaving this webring is easy. Please get in touch with [one of our organisers](/organisers) and let them know that you wish to leave this webring. Then remove the links from your website. You do not have to wait for our response once you have intimated us.
+Leaving this webring is easy. Please get in touch with [one of our organisers](/organisers) and let them know that you wish to leave this webring, then remove the links from your website. You do not have to wait for our response once you have informed us of your intention to leave.
 
 While it may be tempting to ‘leave’ this webring by simply deleting links from your website without informing us, this would be somewhat inconsiderate since doing so would break the webring. People arriving at your website via the webring may be unable to continue onto the next website.
 
