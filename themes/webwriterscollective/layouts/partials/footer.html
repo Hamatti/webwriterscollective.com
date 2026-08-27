@@ -8,17 +8,17 @@
     </div>
 
     <!-- LINKS & COPYRIGHT -->
-    <div class="col-span-3 md:col-span-1 flex flex-col gap-2 items-start justify-end">
-        <div class="flex flex-row flex-wrap gap-2 lg:flex-col lg:gap-0.5 items-start justify-start">
-            <a href="/webring" class="flex flex-row gap-0.5 items-center justify-start font-bold all-caps {{ if or (eq .RelPermalink "/webring/") (hasPrefix .RelPermalink "/webring/") }}current{{ end }}">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="16" width="16" class="text-accent">
-                  <g id="trip-origin">
-                    <path id="Union" fill="currentColor" d="M12 2c5.5228 0 10 4.47715 10 10 0 5.5228 -4.4772 10 -10 10 -5.52285 0 -10 -4.4772 -10 -10C2 6.47715 6.47715 2 12 2m0 4c-3.31371 0 -6 2.68629 -6 6 0 3.3137 2.68629 6 6 6 3.3137 0 6 -2.6863 6 -6 0 -3.31371 -2.6863 -6 -6 -6" stroke-width="1"></path>
-                  </g>
-                </svg>
-                Join our webring
-            </a>
-            <div class="flex flex-col lg:flex-row gap-4 my-2">
+    <div class="col-span-3 md:col-span-1 flex flex-col gap-1 items-start justify-end">
+        <a href="/webring" class="flex flex-row gap-0.5 items-center justify-start font-bold all-caps {{ if or (eq .RelPermalink "/webring/") (hasPrefix .RelPermalink "/webring/") }}current{{ end }}">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="16" width="16" class="text-accent">
+              <g id="trip-origin">
+                <path id="Union" fill="currentColor" d="M12 2c5.5228 0 10 4.47715 10 10 0 5.5228 -4.4772 10 -10 10 -5.52285 0 -10 -4.4772 -10 -10C2 6.47715 6.47715 2 12 2m0 4c-3.31371 0 -6 2.68629 -6 6 0 3.3137 2.68629 6 6 6 3.3137 0 6 -2.6863 6 -6 0 -3.31371 -2.6863 -6 -6 -6" stroke-width="1"></path>
+              </g>
+            </svg>
+            Join our webring
+        </a>
+        <div class="flex flex-col gap-1">
+            <div class="flex flex-row gap-4 my-2">
                 <div class="flex flex-col gap-0.5">
                     <h5 class="all-caps font-semibold text-foreground/50">Links</h5>
                     <a href="/organisers">Meet our organisers</a>
