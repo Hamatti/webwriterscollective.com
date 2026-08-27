@@ -47,6 +47,14 @@
       "webring": {
         "enabled": true
       }
+    },
+    {
+      "user": "loreleice",
+      "name": "Loreleice",
+      "url": "https://loreleice.net",
+      "webring": {
+        "enabled": true
+      }
     }
   ]
 }
