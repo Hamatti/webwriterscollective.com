@@ -49,6 +49,14 @@
       }
     },
     {
+      "user": "loreleice",
+      "name": "Loreleice",
+      "url": "https://loreleice.net",
+      "webring": {
+        "enabled": true
+      }
+    },
+    {
       "user": "thamarak",
       "name": "Thamara",
       "url": "https://thamara.co.uk",
