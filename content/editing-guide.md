@@ -3,6 +3,7 @@ title: "Editing guide"
 date: 2026-07-17T20:33:07+01:00
 type: page
 draft: false
+toc: true
 ---
 
 This guide is intended for existing members of WWC who may wish to edit this website for the following reasons:
