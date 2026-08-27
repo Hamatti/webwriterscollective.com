@@ -18,20 +18,32 @@ theme = "webwriterscollective"
   [markup.goldmark.renderer]
     unsafe = true
 
+[mediaTypes."application/vnd.webwriterscollective.combined-rss"]
+  suffixes = [""]
+  delimiter = ""
+
+[mediaTypes."application/vnd.webwriterscollective.noticeboard-rss"]
+  suffixes = [""]
+  delimiter = ""
+
+[mediaTypes."application/vnd.webwriterscollective.anthology-rss"]
+  suffixes = [""]
+  delimiter = ""
+
 [outputFormats.CombinedRSS]
-  mediaType = "application/rss+xml"
+  mediaType = "application/vnd.webwriterscollective.combined-rss"
   baseName = "feed"
   isPlainText = true
   rel = "alternate"
 
 [outputFormats.NoticeboardRSS]
-  mediaType = "application/rss+xml"
+  mediaType = "application/vnd.webwriterscollective.noticeboard-rss"
   baseName = "feed"
   isPlainText = true
   rel = "alternate"
 
 [outputFormats.AnthologyArticlesRSS]
-  mediaType = "application/rss+xml"
+  mediaType = "application/vnd.webwriterscollective.anthology-rss"
   baseName = "feed"
   isPlainText = true
   rel = "alternate"
