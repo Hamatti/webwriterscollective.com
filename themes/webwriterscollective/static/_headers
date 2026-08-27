@@ -1,2 +1,11 @@
 /fonts/*
   Access-Control-Allow-Origin: https://forum.webwriterscollective.com
+
+/feed
+  Content-Type: application/rss+xml; charset=utf-8
+
+/noticeboard/feed
+  Content-Type: application/rss+xml; charset=utf-8
+
+/anthologies/feed
+  Content-Type: application/rss+xml; charset=utf-8

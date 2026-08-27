@@ -29,6 +29,9 @@
     <meta name="twitter:description" content="{{ $description }}">
     <meta property="twitter:image" content="{{ .Params.cover | default "/wwc-opengraph.png" | absURL }}">
 
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="Web Writers’ Collective" href="https://webwriterscollective.com/feed"/>
+
     {{ block "head" . }}{{ end }}
 </head>
 <body class="max-w-350 mx-auto {{ delimit (split (strings.Trim .RelPermalink "/") "/") " " }}">
