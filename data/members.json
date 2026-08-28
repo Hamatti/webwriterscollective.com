@@ -88,5 +88,13 @@
         "enabled": true
       }
     }
+    {
+      "user": "zacharykai",
+      "name": "Zachary Kai",
+      "url": "https://zacharykai.net",
+      "webring": {
+        "enabled": true
+      }
+    }
   ]
 }
