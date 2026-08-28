@@ -4,9 +4,19 @@
   <meta charset="utf-8">
   <meta name="robots" content="noindex">
 
+  {{ $sourceDomain := .Params.domain }}
+  {{ $destinationURL := .Params.destination }}
+
+  {{ $separator := "?" }}
+  {{ if strings.Contains $destinationURL "?" }}
+    {{ $separator = "&" }}
+  {{ end }}
+
+  {{ $destination := printf "%s%sref=%s" $destinationURL $separator $sourceDomain }}
+
   <meta
     http-equiv="refresh"
-    content="0;url={{ .Params.destination }}"
+    content="0;url={{ $destination }}"
   >
 
   <title>WWC Webring • Next</title>

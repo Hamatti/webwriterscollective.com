@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en-GB">
 <head>
   <meta charset="utf-8">
   <meta name="robots" content="noindex">
@@ -23,9 +25,16 @@
   {{ $shuffled := shuffle $others }}
   {{ $fallback := index $shuffled 0 }}
 
+  {{ $fallbackSeparator := "?" }}
+  {{ if strings.Contains $fallback.url "?" }}
+    {{ $fallbackSeparator = "&" }}
+  {{ end }}
+
+  {{ $fallbackDestination := printf "%s%sref=%s" $fallback.url $fallbackSeparator $currentDomain }}
+
   <meta
     http-equiv="refresh"
-    content="2;url={{ $fallback.url }}"
+    content="2;url={{ $fallbackDestination }}"
   >
 
   <title>WWC Webring • Random</title>
@@ -36,7 +45,7 @@
   <noscript>
     <p>
       Taking you to a random member…
-      <a href="{{ $fallback.url }}">
+      <a href="{{ $fallbackDestination }}">
         Continue to {{ $fallback.url }}
       </a>
     </p>
@@ -78,8 +87,16 @@
       const randomMember =
         others[Math.floor(Math.random() * others.length)];
 
-      window.location.replace(randomMember.url);
+      const separator = randomMember.url.includes("?")
+        ? "&"
+        : "?";
+
+      const destination =
+        `${randomMember.url}${separator}ref=${encodeURIComponent(currentDomain)}`;
+
+      window.location.replace(destination);
     }
   </script>
 
 </body>
+</html>
